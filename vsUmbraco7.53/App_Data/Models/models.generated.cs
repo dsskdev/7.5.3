@@ -19,8 +19,8 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "b42ef27058069e5e")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "be46ecaf3304ed72")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -180,15 +180,6 @@ namespace Umbraco.Web.PublishedContentModels
 		public Newtonsoft.Json.Linq.JToken Grid
 		{
 			get { return this.GetPropertyValue<Newtonsoft.Json.Linq.JToken>("grid"); }
-		}
-
-		///<summary>
-		/// Page Slider
-		///</summary>
-		[ImplementPropertyType("pageSlider")]
-		public object PageSlider
-		{
-			get { return this.GetPropertyValue("pageSlider"); }
 		}
 	}
 
