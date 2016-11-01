@@ -3555,7 +3555,10 @@ function keyboardService($window, $timeout) {
     //
 
     return keyboardManagerService;
-}angular.module('umbraco.services').factory('keyboardService', ['$window', '$timeout', keyboardService]);
+}
+
+angular.module('umbraco.services').factory('keyboardService', ['$window', '$timeout', keyboardService]);
+
 /**
  @ngdoc service
  * @name umbraco.services.listViewHelper

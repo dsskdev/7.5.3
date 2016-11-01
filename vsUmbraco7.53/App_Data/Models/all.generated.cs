@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "be46ecaf3304ed72")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "f2347dc560517c97")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -40,9 +40,38 @@ using  Umbraco.ModelsBuilder.Umbraco;
 
 namespace Umbraco.Web.PublishedContentModels
 {
+	// Mixin content Type 1058 with alias "base"
+	/// <summary>base</summary>
+	public partial interface IBase : IPublishedContent
+	{
+		/// <summary>Page Description</summary>
+		string PageDescription { get; }
+
+		/// <summary>Page Title</summary>
+		string PageTitle { get; }
+
+		/// <summary>umbraco Internal Redirect Id</summary>
+		object UmbracoInternalRedirectId { get; }
+
+		/// <summary>umbraco Navi Hide</summary>
+		bool UmbracoNaviHide { get; }
+
+		/// <summary>umbraco Redirect</summary>
+		object UmbracoRedirect { get; }
+
+		/// <summary>umbraco Sitemap Hide</summary>
+		bool UmbracoSitemapHide { get; }
+
+		/// <summary>umbraco Url Alias</summary>
+		string UmbracoUrlAlias { get; }
+
+		/// <summary>umbraco Url Name</summary>
+		string UmbracoUrlName { get; }
+	}
+
 	/// <summary>base</summary>
 	[PublishedContentModel("base")]
-	public partial class Base : PublishedContentModel
+	public partial class Base : PublishedContentModel, IBase
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "base";
@@ -71,8 +100,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("pageDescription")]
 		public string PageDescription
 		{
-			get { return this.GetPropertyValue<string>("pageDescription"); }
+			get { return GetPageDescription(this); }
 		}
+
+		/// <summary>Static getter for Page Description</summary>
+		public static string GetPageDescription(IBase that) { return that.GetPropertyValue<string>("pageDescription"); }
 
 		///<summary>
 		/// Page Title
@@ -80,8 +112,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("pageTitle")]
 		public string PageTitle
 		{
-			get { return this.GetPropertyValue<string>("pageTitle"); }
+			get { return GetPageTitle(this); }
 		}
+
+		/// <summary>Static getter for Page Title</summary>
+		public static string GetPageTitle(IBase that) { return that.GetPropertyValue<string>("pageTitle"); }
 
 		///<summary>
 		/// umbraco Internal Redirect Id
@@ -89,8 +124,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("umbracoInternalRedirectId")]
 		public object UmbracoInternalRedirectId
 		{
-			get { return this.GetPropertyValue("umbracoInternalRedirectId"); }
+			get { return GetUmbracoInternalRedirectId(this); }
 		}
+
+		/// <summary>Static getter for umbraco Internal Redirect Id</summary>
+		public static object GetUmbracoInternalRedirectId(IBase that) { return that.GetPropertyValue("umbracoInternalRedirectId"); }
 
 		///<summary>
 		/// umbraco Navi Hide
@@ -98,8 +136,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("umbracoNaviHide")]
 		public bool UmbracoNaviHide
 		{
-			get { return this.GetPropertyValue<bool>("umbracoNaviHide"); }
+			get { return GetUmbracoNaviHide(this); }
 		}
+
+		/// <summary>Static getter for umbraco Navi Hide</summary>
+		public static bool GetUmbracoNaviHide(IBase that) { return that.GetPropertyValue<bool>("umbracoNaviHide"); }
 
 		///<summary>
 		/// umbraco Redirect
@@ -107,8 +148,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("umbracoRedirect")]
 		public object UmbracoRedirect
 		{
-			get { return this.GetPropertyValue("umbracoRedirect"); }
+			get { return GetUmbracoRedirect(this); }
 		}
+
+		/// <summary>Static getter for umbraco Redirect</summary>
+		public static object GetUmbracoRedirect(IBase that) { return that.GetPropertyValue("umbracoRedirect"); }
 
 		///<summary>
 		/// umbraco Sitemap Hide
@@ -116,8 +160,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("umbracoSitemapHide")]
 		public bool UmbracoSitemapHide
 		{
-			get { return this.GetPropertyValue<bool>("umbracoSitemapHide"); }
+			get { return GetUmbracoSitemapHide(this); }
 		}
+
+		/// <summary>Static getter for umbraco Sitemap Hide</summary>
+		public static bool GetUmbracoSitemapHide(IBase that) { return that.GetPropertyValue<bool>("umbracoSitemapHide"); }
 
 		///<summary>
 		/// umbraco Url Alias
@@ -125,8 +172,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("umbracoUrlAlias")]
 		public string UmbracoUrlAlias
 		{
-			get { return this.GetPropertyValue<string>("umbracoUrlAlias"); }
+			get { return GetUmbracoUrlAlias(this); }
 		}
+
+		/// <summary>Static getter for umbraco Url Alias</summary>
+		public static string GetUmbracoUrlAlias(IBase that) { return that.GetPropertyValue<string>("umbracoUrlAlias"); }
 
 		///<summary>
 		/// umbraco Url Name
@@ -134,8 +184,11 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("umbracoUrlName")]
 		public string UmbracoUrlName
 		{
-			get { return this.GetPropertyValue<string>("umbracoUrlName"); }
+			get { return GetUmbracoUrlName(this); }
 		}
+
+		/// <summary>Static getter for umbraco Url Name</summary>
+		public static string GetUmbracoUrlName(IBase that) { return that.GetPropertyValue<string>("umbracoUrlName"); }
 	}
 
 	/// <summary>home</summary>
@@ -196,6 +249,122 @@ namespace Umbraco.Web.PublishedContentModels
 		public Newtonsoft.Json.Linq.JToken Grid
 		{
 			get { return this.GetPropertyValue<Newtonsoft.Json.Linq.JToken>("grid"); }
+		}
+
+		///<summary>
+		/// Page RTE
+		///</summary>
+		[ImplementPropertyType("pageRTE")]
+		public IHtmlString PageRte
+		{
+			get { return this.GetPropertyValue<IHtmlString>("pageRTE"); }
+		}
+	}
+
+	/// <summary>comp</summary>
+	[PublishedContentModel("comp")]
+	public partial class Comp : PublishedContentModel, IBase
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "comp";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Comp(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Comp, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// image
+		///</summary>
+		[ImplementPropertyType("image")]
+		public string Image
+		{
+			get { return this.GetPropertyValue<string>("image"); }
+		}
+
+		///<summary>
+		/// Page Description
+		///</summary>
+		[ImplementPropertyType("pageDescription")]
+		public string PageDescription
+		{
+			get { return Base.GetPageDescription(this); }
+		}
+
+		///<summary>
+		/// Page Title
+		///</summary>
+		[ImplementPropertyType("pageTitle")]
+		public string PageTitle
+		{
+			get { return Base.GetPageTitle(this); }
+		}
+
+		///<summary>
+		/// umbraco Internal Redirect Id
+		///</summary>
+		[ImplementPropertyType("umbracoInternalRedirectId")]
+		public object UmbracoInternalRedirectId
+		{
+			get { return Base.GetUmbracoInternalRedirectId(this); }
+		}
+
+		///<summary>
+		/// umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return Base.GetUmbracoNaviHide(this); }
+		}
+
+		///<summary>
+		/// umbraco Redirect
+		///</summary>
+		[ImplementPropertyType("umbracoRedirect")]
+		public object UmbracoRedirect
+		{
+			get { return Base.GetUmbracoRedirect(this); }
+		}
+
+		///<summary>
+		/// umbraco Sitemap Hide
+		///</summary>
+		[ImplementPropertyType("umbracoSitemapHide")]
+		public bool UmbracoSitemapHide
+		{
+			get { return Base.GetUmbracoSitemapHide(this); }
+		}
+
+		///<summary>
+		/// umbraco Url Alias
+		///</summary>
+		[ImplementPropertyType("umbracoUrlAlias")]
+		public string UmbracoUrlAlias
+		{
+			get { return Base.GetUmbracoUrlAlias(this); }
+		}
+
+		///<summary>
+		/// umbraco Url Name
+		///</summary>
+		[ImplementPropertyType("umbracoUrlName")]
+		public string UmbracoUrlName
+		{
+			get { return Base.GetUmbracoUrlName(this); }
 		}
 	}
 

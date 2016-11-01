@@ -2,10 +2,13 @@
 @{
 	Layout = "master.cshtml";
 }
-<div class="row">	
-	<div class="col-xs-12">
+<div class="row">
+	<div class="col-md-4">
+	</div>
+	<div class="col-md-8">
 		<h1>@Umbraco.Field("pageTitle")</h1>
    		<h2>@Umbraco.Field("pageDescription")</h2>
 		@Html.GetGridHtml(@Model.Content,"Grid","bootstrap")
-  </div>
+		@Umbraco.Field("pageRTE")
+	</div>		
 </div>

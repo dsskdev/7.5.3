@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="@Umbraco.Field("pageDescription")">
     <title>@Umbraco.Field("pageTitle")</title>
-    <link href="~/Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Css/bootstrap.min.css" rel="stylesheet" /> 
     <link href="~/Css/style.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,10 +20,15 @@
     <![endif]-->
   </head>
   <body>
+	<header>
+	</header>
 	<div class="container">
 		@{Html.RenderPartial("MainNavigation");}
+		@{Html.RenderPartial("Breadcrumb");}
 		@RenderBody()
 	</div>
+	<footer>
+	</footer>
     <script src="~/Scripts/jquery-3.1.1.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
   </body>

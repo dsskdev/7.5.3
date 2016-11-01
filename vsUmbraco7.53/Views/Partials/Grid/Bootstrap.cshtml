@@ -23,7 +23,7 @@
         }
         else
         {
-            <div class="container">
+            // <div class="container">
                 <div class="row clearfix">
                     @foreach (var s in Model.sections)
                     {
@@ -37,14 +37,14 @@
                         </div>
                     }
                 </div>
-            </div>
+            //</div>
         }
     </div>
 }
 @helper renderRow(dynamic row, bool singleColumn)
 {
     <div @RenderElementAttributes(row)>
-        @Umbraco.If(singleColumn, "<div class='container'>")
+       @* @Umbraco.If(singleColumn, "<div class='container'>") *@
         <div class="row clearfix">
             @foreach (var area in row.areas)
             {
@@ -60,7 +60,7 @@
                     </div>
                 </div>}
         </div>
-        @Umbraco.If(singleColumn, "</div>")
+       @* @Umbraco.If(singleColumn, "</div>") *@
     </div>
 }
 @functions {
