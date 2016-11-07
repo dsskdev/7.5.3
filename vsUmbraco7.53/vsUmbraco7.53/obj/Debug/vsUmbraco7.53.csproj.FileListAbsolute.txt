@@ -1,0 +1,6 @@
+C:\Dibs\vsUmbraco7.53\vsUmbraco7.53\bin\vsUmbraco7.53.dll.config
+C:\Dibs\vsUmbraco7.53\vsUmbraco7.53\bin\vsUmbraco7.53.dll
+C:\Dibs\vsUmbraco7.53\vsUmbraco7.53\bin\vsUmbraco7.53.pdb
+C:\Dibs\vsUmbraco7.53\vsUmbraco7.53\obj\Debug\vsUmbraco7.53.dll
+C:\Dibs\vsUmbraco7.53\vsUmbraco7.53\obj\Debug\vsUmbraco7.53.pdb
+C:\Dibs\vsUmbraco7.53\vsUmbraco7.53\obj\Debug\vsUmbraco7.53.csprojResolveAssemblyReference.cache
