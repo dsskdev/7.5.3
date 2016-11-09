@@ -1,8 +1,0 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@{
-	var siblings = Model.Content.Siblings();
-	foreach (var item in siblings.Where(x => x.Id != Model.Content.Id))
-	{
-		<a title="@item.Name" href="@item.Url">@item.Name</a>
-	}
-}
