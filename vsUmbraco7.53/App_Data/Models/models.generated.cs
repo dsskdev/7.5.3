@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "8a73c8d10bb56966")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "9f876bfc1da271ff")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -315,7 +315,7 @@ namespace Umbraco.Web.PublishedContentModels
 
 	/// <summary>page</summary>
 	[PublishedContentModel("page")]
-	public partial class Page : PublishedContentModel, ISEO, IUmbracoSettings
+	public partial class Page : PublishedContentModel, IBasicContent, ISEO, IUmbracoSettings
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "page";
@@ -344,7 +344,7 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("heading")]
 		public string Heading
 		{
-			get { return this.GetPropertyValue<string>("heading"); }
+			get { return BasicContent.GetHeading(this); }
 		}
 
 		///<summary>
@@ -353,7 +353,16 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("image")]
 		public string Image
 		{
-			get { return this.GetPropertyValue<string>("image"); }
+			get { return BasicContent.GetImage(this); }
+		}
+
+		///<summary>
+		/// Links
+		///</summary>
+		[ImplementPropertyType("links")]
+		public Newtonsoft.Json.Linq.JArray Links
+		{
+			get { return BasicContent.GetLinks(this); }
 		}
 
 		///<summary>
@@ -362,7 +371,7 @@ namespace Umbraco.Web.PublishedContentModels
 		[ImplementPropertyType("mainContent")]
 		public IHtmlString MainContent
 		{
-			get { return this.GetPropertyValue<IHtmlString>("mainContent"); }
+			get { return BasicContent.GetMainContent(this); }
 		}
 
 		///<summary>
@@ -436,6 +445,231 @@ namespace Umbraco.Web.PublishedContentModels
 		{
 			get { return UmbracoSettings.GetUmbracoUrlName(this); }
 		}
+	}
+
+	/// <summary>branch</summary>
+	[PublishedContentModel("branch")]
+	public partial class Branch : PublishedContentModel, IBasicContent, ISEO, IUmbracoSettings
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "branch";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Branch(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Branch, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// heading
+		///</summary>
+		[ImplementPropertyType("heading")]
+		public string Heading
+		{
+			get { return BasicContent.GetHeading(this); }
+		}
+
+		///<summary>
+		/// image
+		///</summary>
+		[ImplementPropertyType("image")]
+		public string Image
+		{
+			get { return BasicContent.GetImage(this); }
+		}
+
+		///<summary>
+		/// Links
+		///</summary>
+		[ImplementPropertyType("links")]
+		public Newtonsoft.Json.Linq.JArray Links
+		{
+			get { return BasicContent.GetLinks(this); }
+		}
+
+		///<summary>
+		/// main Content
+		///</summary>
+		[ImplementPropertyType("mainContent")]
+		public IHtmlString MainContent
+		{
+			get { return BasicContent.GetMainContent(this); }
+		}
+
+		///<summary>
+		/// meta Description
+		///</summary>
+		[ImplementPropertyType("metaDescription")]
+		public string MetaDescription
+		{
+			get { return SEO.GetMetaDescription(this); }
+		}
+
+		///<summary>
+		/// meta Title
+		///</summary>
+		[ImplementPropertyType("metaTitle")]
+		public string MetaTitle
+		{
+			get { return SEO.GetMetaTitle(this); }
+		}
+
+		///<summary>
+		/// umbraco Internal Redirect Id
+		///</summary>
+		[ImplementPropertyType("umbracoInternalRedirectId")]
+		public object UmbracoInternalRedirectId
+		{
+			get { return UmbracoSettings.GetUmbracoInternalRedirectId(this); }
+		}
+
+		///<summary>
+		/// umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return UmbracoSettings.GetUmbracoNaviHide(this); }
+		}
+
+		///<summary>
+		/// umbraco Redirect
+		///</summary>
+		[ImplementPropertyType("umbracoRedirect")]
+		public object UmbracoRedirect
+		{
+			get { return UmbracoSettings.GetUmbracoRedirect(this); }
+		}
+
+		///<summary>
+		/// umbraco Sitemap Hide
+		///</summary>
+		[ImplementPropertyType("umbracoSitemapHide")]
+		public bool UmbracoSitemapHide
+		{
+			get { return UmbracoSettings.GetUmbracoSitemapHide(this); }
+		}
+
+		///<summary>
+		/// umbraco Url Alias
+		///</summary>
+		[ImplementPropertyType("umbracoUrlAlias")]
+		public string UmbracoUrlAlias
+		{
+			get { return UmbracoSettings.GetUmbracoUrlAlias(this); }
+		}
+
+		///<summary>
+		/// umbraco Url Name
+		///</summary>
+		[ImplementPropertyType("umbracoUrlName")]
+		public string UmbracoUrlName
+		{
+			get { return UmbracoSettings.GetUmbracoUrlName(this); }
+		}
+	}
+
+	// Mixin content Type 1115 with alias "basicContent"
+	/// <summary>basic Content</summary>
+	public partial interface IBasicContent : IPublishedContent
+	{
+		/// <summary>heading</summary>
+		string Heading { get; }
+
+		/// <summary>image</summary>
+		string Image { get; }
+
+		/// <summary>Links</summary>
+		Newtonsoft.Json.Linq.JArray Links { get; }
+
+		/// <summary>main Content</summary>
+		IHtmlString MainContent { get; }
+	}
+
+	/// <summary>basic Content</summary>
+	[PublishedContentModel("basicContent")]
+	public partial class BasicContent : PublishedContentModel, IBasicContent
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "basicContent";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public BasicContent(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<BasicContent, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// heading
+		///</summary>
+		[ImplementPropertyType("heading")]
+		public string Heading
+		{
+			get { return GetHeading(this); }
+		}
+
+		/// <summary>Static getter for heading</summary>
+		public static string GetHeading(IBasicContent that) { return that.GetPropertyValue<string>("heading"); }
+
+		///<summary>
+		/// image
+		///</summary>
+		[ImplementPropertyType("image")]
+		public string Image
+		{
+			get { return GetImage(this); }
+		}
+
+		/// <summary>Static getter for image</summary>
+		public static string GetImage(IBasicContent that) { return that.GetPropertyValue<string>("image"); }
+
+		///<summary>
+		/// Links
+		///</summary>
+		[ImplementPropertyType("links")]
+		public Newtonsoft.Json.Linq.JArray Links
+		{
+			get { return GetLinks(this); }
+		}
+
+		/// <summary>Static getter for Links</summary>
+		public static Newtonsoft.Json.Linq.JArray GetLinks(IBasicContent that) { return that.GetPropertyValue<Newtonsoft.Json.Linq.JArray>("links"); }
+
+		///<summary>
+		/// main Content
+		///</summary>
+		[ImplementPropertyType("mainContent")]
+		public IHtmlString MainContent
+		{
+			get { return GetMainContent(this); }
+		}
+
+		/// <summary>Static getter for main Content</summary>
+		public static IHtmlString GetMainContent(IBasicContent that) { return that.GetPropertyValue<IHtmlString>("mainContent"); }
 	}
 
 	/// <summary>Folder</summary>
