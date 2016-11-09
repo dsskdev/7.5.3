@@ -1,0 +1,50 @@
+﻿ 2016-10-23 00:18:21,295 [P14624/D20/T398] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-22 00:18:21
+ 2016-10-23 02:08:40,858 [P14624/D20/T65] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at Go6803(RegexRunner )
+   at System.Text.RegularExpressions.CompiledRegexRunner.Go()
+   at System.Text.RegularExpressions.RegexRunner.Scan(Regex regex, String text, Int32 textbeg, Int32 textend, Int32 textstart, Int32 prevlen, Boolean quick, TimeSpan timeout)
+   at System.Text.RegularExpressions.Regex.Run(Boolean quick, Int32 prevlen, String input, Int32 beginning, Int32 length, Int32 startat)
+   at System.Text.RegularExpressions.Regex.IsMatch(String input, Int32 startat)
+   at System.Text.RegularExpressions.Regex.IsMatch(String input)
+   at Umbraco.Core.Persistence.Database.AddSelectClause[T](String sql)
+   at Umbraco.Core.Persistence.Database.<Query>d__7`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T](String sql, Object[] args)
+   at Umbraco.Core.Persistence.Database.Fetch[T](Sql sql)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.ProcessDatabaseInstructions()
+   at Umbraco.Core.Sync.DatabaseServerMessenger.Sync()
+   at Umbraco.Web.BatchedDatabaseServerMessenger.UmbracoModule_RouteAttempt(Object sender, RoutableAttemptEventArgs e)
+   at Umbraco.Web.UmbracoModule.OnRouteAttempt(RoutableAttemptEventArgs args)
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-10-23 02:09:06,739 [P14624/D20/T471] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at Go6805(RegexRunner )
+   at System.Text.RegularExpressions.CompiledRegexRunner.Go()
+   at System.Text.RegularExpressions.RegexRunner.Scan(Regex regex, String text, Int32 textbeg, Int32 textend, Int32 textstart, Int32 prevlen, Boolean quick, TimeSpan timeout)
+   at System.Text.RegularExpressions.Regex.Run(Boolean quick, Int32 prevlen, String input, Int32 beginning, Int32 length, Int32 startat)
+   at System.Text.RegularExpressions.Regex.IsMatch(String input, Int32 startat)
+   at System.Text.RegularExpressions.Regex.IsMatch(String input)
+   at Umbraco.Core.Persistence.Database.AddSelectClause[T](String sql)
+   at Umbraco.Core.Persistence.Database.<Query>d__7`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T](String sql, Object[] args)
+   at Umbraco.Core.Persistence.Database.Fetch[T](Sql sql)
+   at Umbraco.Core.Sync.DatabaseServerMessenger.ProcessDatabaseInstructions()
+   at Umbraco.Core.Sync.DatabaseServerMessenger.Sync()
+   at Umbraco.Web.BatchedDatabaseServerMessenger.UmbracoModule_RouteAttempt(Object sender, RoutableAttemptEventArgs e)
+   at Umbraco.Web.UmbracoModule.OnRouteAttempt(RoutableAttemptEventArgs args)
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__8(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-10-23 04:18:25,016 [P14624/D20/T58] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-22 04:18:23
+ 2016-10-23 08:18:24,874 [P14624/D20/T418] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-22 08:18:24
+ 2016-10-23 12:18:24,802 [P14624/D20/T446] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-22 12:18:24
+ 2016-10-23 16:18:24,565 [P14624/D20/T446] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-22 16:18:24
+ 2016-10-23 20:18:24,482 [P14624/D20/T494] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-22 20:18:24
