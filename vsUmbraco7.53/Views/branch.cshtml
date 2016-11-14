@@ -29,6 +29,22 @@
 				}
 			</ul>
 		}
-	}  
+	} 
+
+	
+	@{ var selection = Model.Content.Children.Where("Visible"); }
+	@if (selection.Any())
+	{
+		foreach (var item in selection)
+		{
+			if(item.HasValue("image"))
+			{
+				var imagePath = item.GetPropertyValue<string>("image");
+				<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
+			}
+			<a href="@item.Url">@item.Name</a>   
+		}  
+	}
+
  </div>
 </div>
