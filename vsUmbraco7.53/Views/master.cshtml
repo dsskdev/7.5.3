@@ -10,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="@Umbraco.Field("metaDescription")">
     <title>@Umbraco.Field("metaTitle") &#8211; @Umbraco.Field("siteName", recursive: true)</title>
-    <link href="~/Css/bootstrap.min.css" rel="stylesheet" /> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="~/Content/mdl-v1.1.2/material.min.css" rel="stylesheet" />
+    <!-- <link href="~/Css/bootstrap.min.css" rel="stylesheet" /> -->
     <link href="~/Css/style.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,16 +22,38 @@
     <![endif]-->
   </head>
   <body>
-	<header>
-	</header>
-	<div class="container">
-		@{Html.RenderPartial("MainNavigation");}
-		@{Html.RenderPartial("Breadcrumb");}
-		@RenderBody()
-	</div>
-	<footer>
-	</footer>
-    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
-  </body>
+        <!--
+        <header>
+        </header>
+        <div class="container">
+        -->
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <header class="mdl-layout__header">
+              @{Html.RenderPartial("MainNavigation");}
+          </header>
+			  @{Html.RenderPartial("Drawer");}
+          <main class="mdl-layout__content">
+             <div class="page-content">@RenderBody()</div>
+          </main>
+      </div>
+
+
+         @*
+            @{Html.RenderPartial("Breadcrumb");}
+         *@
+
+
+
+
+
+
+          <!--
+        </div>
+        <footer>
+        </footer>
+        -->
+          <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+          <script src="~/Content/mdl-v1.1.2/material.min.js"></script>
+          <!-- <script src="~/Scripts/bootstrap.min.js"></script> -->
+</body>
 </html>
