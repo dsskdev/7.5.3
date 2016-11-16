@@ -42,19 +42,27 @@
     </div>
 </div>
 <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col">
 	    @{ var selection = Model.Content.Children.Where("Visible"); }
-	        @if (selection.Any())
-	        {
-		        foreach (var item in selection)
-		        {
-			        if(item.HasValue("image"))
-			        {
-				        var imagePath = item.GetPropertyValue<string>("image");
-				        <img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
-			        }
-			        <a href="@item.Url">@item.Name</a>   
-		    }  
-	    }
-    </div>
+			@if (selection.Any())
+			{
+
+				foreach (var item in selection)
+				{
+					<div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+						@if(item.HasValue("image"))
+						{
+							var imagePath = item.GetPropertyValue<string>("image");
+							<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
+						}
+						<div class="mdl-card__title">
+							<a href="@item.Url">@item.Name</a>
+						</div>
+						<div class="mdl-card__supporting-text">
+							@*@Umbraco.Field("mainContent")*@
+							@(Umbraco.Truncate(item.GetPropertyValue("mainContent").ToString(), 200, true))
+						</div>
+					</div>
+				}  
+
+			}
 </div>

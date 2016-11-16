@@ -1,0 +1,25 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "master.cshtml";
+}
+<div class="row">
+ <div class="col-md-3">
+	@{Html.RenderPartial("Siblings");}
+ </div>
+ <div class="col-md-9">
+	@{
+		if(Model.Content.HasValue("image"))
+		{
+			var imagePath = Model.Content.GetPropertyValue<string>("image");
+			<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
+		}
+	}
+	<h1>@Umbraco.Field("heading")</h1>
+		<h2>@Umbraco.Field("location")</h2>
+	@Umbraco.Field("mainContent")
+	<p>@Umbraco.Field("start")</p>
+	<p>@Umbraco.Field("startTime")</p>
+		<p>@Umbraco.Field("endDate")</p>
+	<p>@Umbraco.Field("endTime")</p>
+ </div>
+</div>

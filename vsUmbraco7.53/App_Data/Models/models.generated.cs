@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "82e5645062e379c2")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "c97f789619e8234f")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -761,6 +761,203 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<NewsArticle, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Dropdown Partners
+		///</summary>
+		[ImplementPropertyType("dropdownPartners")]
+		public object DropdownPartners
+		{
+			get { return BasicContent.GetDropdownPartners(this); }
+		}
+
+		///<summary>
+		/// heading
+		///</summary>
+		[ImplementPropertyType("heading")]
+		public string Heading
+		{
+			get { return BasicContent.GetHeading(this); }
+		}
+
+		///<summary>
+		/// image
+		///</summary>
+		[ImplementPropertyType("image")]
+		public string Image
+		{
+			get { return BasicContent.GetImage(this); }
+		}
+
+		///<summary>
+		/// Links
+		///</summary>
+		[ImplementPropertyType("links")]
+		public Newtonsoft.Json.Linq.JArray Links
+		{
+			get { return BasicContent.GetLinks(this); }
+		}
+
+		///<summary>
+		/// main Content
+		///</summary>
+		[ImplementPropertyType("mainContent")]
+		public IHtmlString MainContent
+		{
+			get { return BasicContent.GetMainContent(this); }
+		}
+
+		///<summary>
+		/// part
+		///</summary>
+		[ImplementPropertyType("part")]
+		public object Part
+		{
+			get { return BasicContent.GetPart(this); }
+		}
+
+		///<summary>
+		/// meta Description
+		///</summary>
+		[ImplementPropertyType("metaDescription")]
+		public string MetaDescription
+		{
+			get { return SEO.GetMetaDescription(this); }
+		}
+
+		///<summary>
+		/// meta Title
+		///</summary>
+		[ImplementPropertyType("metaTitle")]
+		public string MetaTitle
+		{
+			get { return SEO.GetMetaTitle(this); }
+		}
+
+		///<summary>
+		/// umbraco Internal Redirect Id
+		///</summary>
+		[ImplementPropertyType("umbracoInternalRedirectId")]
+		public object UmbracoInternalRedirectId
+		{
+			get { return UmbracoSettings.GetUmbracoInternalRedirectId(this); }
+		}
+
+		///<summary>
+		/// umbraco Navi Hide
+		///</summary>
+		[ImplementPropertyType("umbracoNaviHide")]
+		public bool UmbracoNaviHide
+		{
+			get { return UmbracoSettings.GetUmbracoNaviHide(this); }
+		}
+
+		///<summary>
+		/// umbraco Redirect
+		///</summary>
+		[ImplementPropertyType("umbracoRedirect")]
+		public object UmbracoRedirect
+		{
+			get { return UmbracoSettings.GetUmbracoRedirect(this); }
+		}
+
+		///<summary>
+		/// umbraco Sitemap Hide
+		///</summary>
+		[ImplementPropertyType("umbracoSitemapHide")]
+		public bool UmbracoSitemapHide
+		{
+			get { return UmbracoSettings.GetUmbracoSitemapHide(this); }
+		}
+
+		///<summary>
+		/// umbraco Url Alias
+		///</summary>
+		[ImplementPropertyType("umbracoUrlAlias")]
+		public string UmbracoUrlAlias
+		{
+			get { return UmbracoSettings.GetUmbracoUrlAlias(this); }
+		}
+
+		///<summary>
+		/// umbraco Url Name
+		///</summary>
+		[ImplementPropertyType("umbracoUrlName")]
+		public string UmbracoUrlName
+		{
+			get { return UmbracoSettings.GetUmbracoUrlName(this); }
+		}
+	}
+
+	/// <summary>event</summary>
+	[PublishedContentModel("event")]
+	public partial class Event : PublishedContentModel, IBasicContent, ISEO, IUmbracoSettings
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "event";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Event(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Event, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// end Date
+		///</summary>
+		[ImplementPropertyType("endDate")]
+		public DateTime EndDate
+		{
+			get { return this.GetPropertyValue<DateTime>("endDate"); }
+		}
+
+		///<summary>
+		/// end Time
+		///</summary>
+		[ImplementPropertyType("endTime")]
+		public DateTime EndTime
+		{
+			get { return this.GetPropertyValue<DateTime>("endTime"); }
+		}
+
+		///<summary>
+		/// location
+		///</summary>
+		[ImplementPropertyType("location")]
+		public string Location
+		{
+			get { return this.GetPropertyValue<string>("location"); }
+		}
+
+		///<summary>
+		/// start Date
+		///</summary>
+		[ImplementPropertyType("start")]
+		public DateTime Start
+		{
+			get { return this.GetPropertyValue<DateTime>("start"); }
+		}
+
+		///<summary>
+		/// start Time
+		///</summary>
+		[ImplementPropertyType("startTime")]
+		public DateTime StartTime
+		{
+			get { return this.GetPropertyValue<DateTime>("startTime"); }
 		}
 
 		///<summary>
