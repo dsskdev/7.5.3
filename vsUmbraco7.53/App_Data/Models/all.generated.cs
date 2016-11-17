@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "c97f789619e8234f")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "3138019cbd2c5b01")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
 // FILE: models.generated.cs
@@ -941,15 +941,6 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// end Time
-		///</summary>
-		[ImplementPropertyType("endTime")]
-		public DateTime EndTime
-		{
-			get { return this.GetPropertyValue<DateTime>("endTime"); }
-		}
-
-		///<summary>
 		/// location
 		///</summary>
 		[ImplementPropertyType("location")]
@@ -965,15 +956,6 @@ namespace Umbraco.Web.PublishedContentModels
 		public DateTime Start
 		{
 			get { return this.GetPropertyValue<DateTime>("start"); }
-		}
-
-		///<summary>
-		/// start Time
-		///</summary>
-		[ImplementPropertyType("startTime")]
-		public DateTime StartTime
-		{
-			get { return this.GetPropertyValue<DateTime>("startTime"); }
 		}
 
 		///<summary>
