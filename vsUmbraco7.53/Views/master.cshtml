@@ -22,36 +22,27 @@
     <![endif]-->
   </head>
   <body>
-        <!--
-        <header>
-        </header>
-        <div class="container">
-        -->
-      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-          <header class="mdl-layout__header">
+		<header class="mdl-layout__header">
               @{Html.RenderPartial("MainNavigation");}
           </header>
-			  @{Html.RenderPartial("Drawer");}
-          <main class="mdl-layout__content">
+			 @{Html.RenderPartial("Drawer");}
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          
+          <main class="mdl-layout__content">			   
              <div class="page-content">@RenderBody()</div>
           </main>
+		  
       </div>
 
-
-         @*
-            @{Html.RenderPartial("Breadcrumb");}
-         *@
+ @{Html.RenderPartial("megaFooter");}
+        
 
 
 
 
 
 
-          <!--
-        </div>
-        <footer>
-        </footer>
-        -->
+
           <script src="~/Scripts/jquery-3.1.1.min.js"></script>
           <script src="~/Content/mdl-v1.1.2/material.min.js"></script>
           <!-- <script src="~/Scripts/bootstrap.min.js"></script> -->

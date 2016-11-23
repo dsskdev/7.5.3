@@ -1,0 +1,19 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{ 
+	var selection = Model.Content.Children.First();
+}
+<div class="ID@{@selection.Id;} ">
+	@if(selection.HasValue("image"))
+	{
+		var imagePath = selection.GetPropertyValue<string>("image");
+		<img src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName" />
+			@*<style>.ID@{@selection.Id;} {background: url(@Umbraco.Media(imagePath).Url) center / cover}</style>*@
+	}
+	<div class="mdl-card__title">
+		<a class="mdl-card__title-text" href="@selection.Url">@selection.Name</a>
+	</div>
+	<div class="mdl-card__supporting-text">
+		@*@Umbraco.Field("mainContent")*@
+		<p>@(Umbraco.Truncate(selection.GetPropertyValue("mainContent").ToString(), 200, true))</p>
+	</div>
+</div>

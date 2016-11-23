@@ -3,11 +3,6 @@
 @{
 	Layout = "master.cshtml";
 }
-<div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col">
-        <h1>@Umbraco.Field("heading")</h1>
-    </div>
-</div>
 @{
     if(Model.Content.HasValue("image"))
 	{
@@ -19,6 +14,11 @@
         </div>
 	}
 }
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+        <h1>@Umbraco.Field("heading")</h1>
+    </div>
+</div>
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col">
         @Umbraco.Field("mainContent")
@@ -42,29 +42,5 @@
     </div>
 </div>
 <div class="mdl-grid">
-	    @{ var selection = Model.Content.Children.Where("Visible"); }
-			@if (selection.Any())
-			{
-
-				foreach (var item in selection)
-				{
-					<div class="mdl-cell mdl-cell--4-col mdl-shadow--2dp">
-						@if(item.HasValue("image"))
-						{
-							var imagePath = item.GetPropertyValue<string>("image");
-
-								<img src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName" />
-
-						}
-						<div class="mdl-card__title">
-							<a class="mdl-card__title-text" href="@item.Url">@item.Name</a>
-						</div>
-						<div class="mdl-card__supporting-text">
-							@*@Umbraco.Field("mainContent")*@
-							<p>@(Umbraco.Truncate(item.GetPropertyValue("mainContent").ToString(), 200, true))</p>
-						</div>
-					</div>
-				}  
-
-			}
+	@{Html.RenderPartial("cardsExample");}
 </div>

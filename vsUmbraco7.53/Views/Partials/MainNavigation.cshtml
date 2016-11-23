@@ -21,13 +21,13 @@
     <nav class="mdl-navigation mdl-layout--large-screen-only">
         @if (homeNode.Name == Model.Content.Name)
         {
-            <a class="mdl-navigation__link" href="/">Home</a>
+            <a class="current mdl-navigation__link" href="/">Home</a>
         }else{
             <a class="mdl-navigation__link" href="/">Home</a>
         }
         @foreach (var item in selection)
         {
-            <a class="mdl-navigation__link" href="@item.Url">@item.Name</a>
+            <a class="@(item.IsAncestorOrSelf(CurrentPage) ? "current" : null) mdl-navigation__link" href="@item.Url">@item.Name</a>
         }
     </nav>
 </div>
