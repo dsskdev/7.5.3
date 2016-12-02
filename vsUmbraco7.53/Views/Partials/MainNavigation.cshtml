@@ -12,56 +12,20 @@
 	var rootNodes = Umbraco.TypedContentAtRoot();
 	var homeNode = rootNodes.First(h => h.DocumentTypeAlias == "home");
 }
-<div class="mdl-layout__header-row">
-    <!-- Title -->
-    <span class="mdl-layout-title">@Umbraco.Field("siteName", recursive: true)</span>
-    <!-- Add spacer, to align navigation to the right -->
-    <div class="mdl-layout-spacer"></div>
-    <!-- Navigation. We hide it in small screens. -->
-    <nav class="mdl-navigation mdl-layout--large-screen-only">
-        @if (homeNode.Name == Model.Content.Name)
-        {
-            <a class="current mdl-navigation__link" href="/">Home</a>
-        }else{
-            <a class="mdl-navigation__link" href="/">Home</a>
-        }
-        @foreach (var item in selection)
-        {
-            <a class="@(item.IsAncestorOrSelf(CurrentPage) ? "current" : null) mdl-navigation__link" href="@item.Url">@item.Name</a>
-        }
-    </nav>
-</div>
-<!--
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                @if (homeNode.Name == Model.Content.Name)
-                {
-                    <li class="current">
-                        <a href="/">Home</a>
-                    </li>
-                }else{
-                    <li class="">
-                        <a href="/">Home</a>
-                    </li>
-                }
-                @foreach (var item in selection)
-                {
-                    <li class="@(item.IsAncestorOrSelf(CurrentPage) ? "current" : null)">
-                        <a href="@item.Url">@item.Name</a>
-                    </li>
-                }
-            </ul>
-        </div>
-    </div>
-</nav>
--->
+<div class="mdl-layout-icon"></div>
+	<div class="mdl-layout__header-row">
+		<span class="mdl-layout-title">@Umbraco.Field("siteName", recursive: true)</span>
+		<div class="mdl-layout-spacer"></div>
+		<nav class="mdl-navigation">
+			@if (homeNode.Name == Model.Content.Name)
+			{
+				<a class="current mdl-navigation__link" href="/">Home</a>
+			}else{
+				<a class="mdl-navigation__link" href="/">Home</a>
+			}
+			@foreach (var item in selection)
+			{
+				<a class="@(item.IsAncestorOrSelf(CurrentPage) ? "current" : null) mdl-navigation__link" href="@item.Url">@item.Name</a>
+			}
+		</nav>
+	</div>

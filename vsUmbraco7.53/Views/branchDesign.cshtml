@@ -3,6 +3,7 @@
 @{
 	Layout = "master.cshtml";
 }
+
 @{
     if(Model.Content.HasValue("image"))
 	{
@@ -14,16 +15,19 @@
         </div>
 	}
 }
+
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col">
         <h1>@Umbraco.Field("heading")</h1>
     </div>
 </div>
+	
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col">
         @Umbraco.Field("mainContent")
     </div>
 </div>
+
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col">
 	    @{      

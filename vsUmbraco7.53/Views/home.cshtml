@@ -2,17 +2,24 @@
 @{
 	Layout = "master.cshtml";
 }
-<div class="mdl-grid">
-	<div class="mdl-cell mdl-cell--9-col">
-		@{Html.RenderPartial("homeWidget");}
-	</div>
-	<div class="mdl-cell mdl-cell--3-col">
-		<div class="mdl-grid">
-			
-		@{Html.RenderPartial("homeWidget");}
 
-		@{Html.RenderPartial("homeWidget");}
-		
+<div class="mdl-grid">
+	
+		<div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--9-col-desktop">
+			@{Html.RenderPartial("homeWidget");}
+		</div>
+	
+
+	<div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
+		<div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+			@{Html.RenderPartial("homeWidget");}
+		</div>
+		<div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+			@{Html.RenderPartial("homeWidget");}
 		</div>
 	</div>
+</div>
+
+<div class="mdl-grid">
+	@{Html.RenderPartial("cardsExample");}
 </div>

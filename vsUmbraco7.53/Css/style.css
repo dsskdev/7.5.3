@@ -1,3 +1,12 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+	flex: 1 0 auto;
+}
+
 .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
   padding-right: 0;
 }
@@ -12,6 +21,6 @@ img {
 .current.mdl-navigation__link {
 	border-bottom-color: #18ff1f;
 }
-.mdl-layout__header{
+.mdl-layout__header, .mdl-mini-footer{
 	background-color: #2C3B42;
 }
