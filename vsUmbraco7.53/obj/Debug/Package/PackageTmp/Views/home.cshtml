@@ -1,0 +1,30 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "master.cshtml";
+}
+
+<div class="mdl-grid">
+	
+		<div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--9-col-desktop">
+			@{Html.RenderPartial("homeWidget");}
+		</div>
+	
+
+	<div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--3-col-desktop">
+		<div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+			@{Html.RenderPartial("homeWidget");}
+		</div>
+		<div class="mdl-cell mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+			@{Html.RenderPartial("homeWidget");}
+		</div>
+	</div>
+</div>
+<div class="mdl-grid">
+	@{Html.RenderPartial("returnType");}
+</div>
+<div class="mdl-grid">
+	@{Html.RenderPartial("eventsReturnType");}
+</div>
+<div class="mdl-grid">
+	@{Html.RenderPartial("cardsExample");}
+</div>

@@ -5,6 +5,15 @@
     var rootNodes = Umbraco.TypedContentAtRoot();
     var homeNode = rootNodes.First(h => h.DocumentTypeAlias == "home");
 }
+@*
+<div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">@Umbraco.Field("siteName", recursive: true)</span>
+    <nav class="mdl-navigation">
+		@{Html.RenderPartial("ancestorsCurrentPage");}
+    </nav>
+</div>
+*@
+
 <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">@Umbraco.Field("siteName", recursive: true)</span>
     <nav class="mdl-navigation">

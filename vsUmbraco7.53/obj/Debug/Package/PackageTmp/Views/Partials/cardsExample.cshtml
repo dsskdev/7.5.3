@@ -1,0 +1,25 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{ var selection = Model.Content.Children.Where("Visible"); }
+@if (selection.Any())
+{
+	foreach (var item in selection)
+	{
+	<div class="ID@{@item.Id;} mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+		@if(item.HasValue("image"))
+		{
+			var imagePath = item.GetPropertyValue<string>("image");
+			@*<img src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName" />*@
+			<style>
+				.ID@{@item.Id;} {background: url(@Umbraco.Media(imagePath).Url) center / cover}
+			</style>
+		}
+		<div class="mdl-card__title">
+			<a class="mdl-card__title-text" href="@item.Url">@item.Name</a>
+		</div>
+		<div class="mdl-card__supporting-text">
+			@*@Umbraco.Field("mainContent")*@
+			<p>@(Umbraco.Truncate(item.GetPropertyValue("mainContent").ToString(), 200, true))</p>
+		</div>
+	</div>
+	}  
+}

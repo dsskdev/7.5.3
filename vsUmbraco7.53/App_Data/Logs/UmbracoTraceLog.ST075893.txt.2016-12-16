@@ -1,0 +1,9 @@
+﻿ 2016-12-16 01:19:13,123 [P8780/D5/T112] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-15 01:19:13
+ 2016-12-16 05:19:13,055 [P8780/D5/T172] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-15 05:19:12
+ 2016-12-16 09:19:13,306 [P8780/D5/T172] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-15 09:19:12
+ 2016-12-16 09:56:52,885 [P8780/D5/T96] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2016-12-16 09:56:52,907 [P8780/D5/T96] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2016-12-16 10:16:27,561 [P8780/D5/T82] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2016-12-16 13:19:13,663 [P8780/D5/T110] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-15 13:19:13
+ 2016-12-16 17:19:13,932 [P8780/D5/T110] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-15 17:19:13
+ 2016-12-16 21:19:14,665 [P8780/D5/T110] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-15 21:19:14

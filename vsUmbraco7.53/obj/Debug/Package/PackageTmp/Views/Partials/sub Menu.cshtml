@@ -1,0 +1,25 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var childPages = Model.Content.Children;
+    var ancestors = Model.Content.Ancestors();
+	var an = Model.Content.AncestorsOrSelf().OrderBy(x => x.Level);
+}
+<ul>
+	@foreach(var item in childPages)
+    {
+    	<li><a href="@item.Url">@item.Name</a></li>
+    }
+</ul>
+<ul>
+    @foreach(var item in ancestors)
+    {
+	    <li><a href="@item.Url">@item.Name</a></li>
+    }
+</ul>
+
+	<ul>
+    @foreach(var item in an)
+    {
+	    <li><a href="@item.Url">@item.Name</a></li>
+    }
+</ul> 

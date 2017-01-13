@@ -2,29 +2,27 @@
 @{
 	Layout = "master.cshtml";
 }
-<div class="row">
- <div class="col-md-3">
-	@{Html.RenderPartial("Siblings");}
- </div>
- <div class="col-md-9">
-	@{
-		if(Model.Content.HasValue("image"))
-		{
-			var imagePath = Model.Content.GetPropertyValue<string>("image");
-			<div class="mdl-grid">
-            	<div class="mdl-cell mdl-cell--12-col">
-					<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
-				</div>
-			</div>
+@{Html.RenderPartial("Breadcrumb");}
+</hr>
+@{Html.RenderPartial("Siblings");}
+<div class="mdl-grid">
+	<div class="mdl-layout-spacer"></div>
+	<div class="mdl-cell mdl-cell--6-col mdl-shadow--2dp">
+		@{
+			if(Model.Content.HasValue("image"))
+			{
+				var imagePath = Model.Content.GetPropertyValue<string>("image");			
+				<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
+			}
 		}
-	}
-	<div class="mdl-grid">
-    	<div class="mdl-cell mdl-cell--12-col">
-			<h1>@Umbraco.Field("heading")</h1>
-			<p>@Umbraco.Field("mainContent")</p>
-			<p>@Umbraco.Field("dropdownPartners")</p>
-			<p>@Umbraco.Field("updateDate")</p>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--12-col">
+				<h1>@Umbraco.Field("heading")</h1>
+				<p>@Umbraco.Field("mainContent")</p>
+				<p>@Umbraco.Field("dropdownPartners")</p>
+				<p>@Umbraco.Field("updateDate")</p>
+			</div>
 		</div>
 	</div>
- </div>
+	<div class="mdl-layout-spacer"></div>
 </div>

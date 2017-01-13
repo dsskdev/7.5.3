@@ -1,0 +1,134 @@
+﻿ 2017-01-10 03:14:53,117 [P8216/D3/T156] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-09 03:14:53
+ 2017-01-10 07:14:53,168 [P8216/D3/T60] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-09 07:14:52
+ 2017-01-10 08:38:25,895 [P8216/D3/T244] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-10 08:38:25,916 [P8216/D3/T244] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-10 11:14:53,598 [P8216/D3/T83] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-09 11:14:53
+ 2017-01-10 12:53:08,490 [P8216/D3/T231] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-10 12:53:44,412 [P8216/D3/T183] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-10 12:53:44,412 [P8216/D3/T183] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-10 12:53:45,192 [P8216/D3/T197] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-10 12:53:45,206 [P8216/D3/T197] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 14ms)
+ 2017-01-10 12:53:46,351 [P8216/D3/T197] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 12:53:46,352 [P8216/D3/T197] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 12:53:46,352 [P8216/D3/T197] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 12:53:46,352 [P8216/D3/T197] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 12:53:46,353 [P8216/D3/T197] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 13:05:45,926 [P8216/D3/T229] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 13:05:45,927 [P8216/D3/T229] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 13:05:45,927 [P8216/D3/T229] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 13:05:45,927 [P8216/D3/T229] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 13:05:45,927 [P8216/D3/T229] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 13:25:16,822 [P8216/D3/T20] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-10 13:34:07,202 [P8216/D3/T146] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-10 13:34:07,202 [P8216/D3/T146] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-10 13:49:39,115 [P8216/D3/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-10 13:53:39,847 [P8216/D3/T33] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-10 14:08:00,526 [P8216/D3/T26] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-10 14:08:05,557 [P8216/D3/T122] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-10 14:08:22,713 [P8216/D3/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-10 14:08:22,713 [P8216/D3/T26] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-10 14:08:26,955 [P8216/D3/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 14:08:26,955 [P8216/D3/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 14:08:26,955 [P8216/D3/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 14:08:26,956 [P8216/D3/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 14:08:26,956 [P8216/D3/T26] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 14:13:42,077 [P8216/D3/T26] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-10 14:27:57,767 [P8216/D3/T7] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-10 14:28:29,103 [P8216/D3/T181] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-10 14:28:29,103 [P8216/D3/T181] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-10 14:47:59,368 [P8216/D3/T241] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-10 15:14:53,856 [P8216/D3/T243] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-09 15:14:53
+ 2017-01-10 15:22:08,570 [P8216/D3/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-10 15:22:08,570 [P8216/D3/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-10 15:36:59,090 [P8216/D3/T159] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:36:59,090 [P8216/D3/T159] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:36:59,091 [P8216/D3/T159] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:36:59,091 [P8216/D3/T159] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:36:59,091 [P8216/D3/T159] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:37:07,439 [P8216/D3/T188] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-10 15:48:13,797 [P8216/D3/T213] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:48:13,797 [P8216/D3/T213] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:48:13,797 [P8216/D3/T213] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:48:13,798 [P8216/D3/T213] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:48:13,798 [P8216/D3/T213] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:48:14,267 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-10 15:48:14,267 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-10 15:48:14,282 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-10 15:48:14,282 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-10 15:48:14,410 [P8216/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-10 15:48:14,410 [P8216/D3/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-10 15:48:14,892 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-10 15:48:14,892 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-10 15:48:14,892 [P8216/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-10 15:48:15,098 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-10 15:48:15,098 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-10 15:48:15,098 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-10 15:48:15,099 [P8216/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-10 15:48:15,099 [P8216/D3/T213] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-10 15:48:15,099 [P8216/D3/T64] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-10 15:48:23,583 [P8216/D4/T92] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on ST075893
+ 2017-01-10 15:48:23,615 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-10 15:48:23,644 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Hash determined (took 28ms)
+ 2017-01-10 15:48:23,855 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-10 15:48:24,407 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 553ms)
+ 2017-01-10 15:48:24,794 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-10 15:48:24,796 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-01-10 15:48:24,797 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-10 15:48:24,802 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 4ms)
+ 2017-01-10 15:48:24,853 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-10 15:48:24,856 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+ 2017-01-10 15:48:24,857 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-10 15:48:24,892 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 34ms)
+ 2017-01-10 15:48:25,226 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-10 15:48:25,228 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-01-10 15:48:25,228 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-10 15:48:25,229 [P8216/D4/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-01-10 15:48:30,244 [P8216/D4/T92] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-10 15:48:31,103 [P8216/D4/T92] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-10 15:48:31,237 [P8216/D4/T92] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-10 15:48:31,275 [P8216/D4/T92] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-10 15:48:31,780 [P8216/D4/T92] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-10 15:48:31,780 [P8216/D4/T92] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-10 15:48:31,871 [P8216/D4/T92] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 8558ms)
+ 2017-01-10 15:48:38,229 [P8216/D4/T233] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63413/umbraco (UmbracoModule request)
+ 2017-01-10 15:48:39,712 [P8216/D4/T233] INFO  umbraco.content - Load Xml from file...
+ 2017-01-10 15:48:39,835 [P8216/D4/T233] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-10 15:48:40,062 [P8216/D4/T233] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-01-10 15:48:40,063 [P8216/D4/T233] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-01-10 15:48:41,777 [P8216/D4/T233] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-10 15:48:41,781 [P8216/D4/T233] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2017-01-10 15:48:45,253 [P8216/D3/T169] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-10 15:49:08,979 [P8216/D4/T29] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:49:08,979 [P8216/D4/T29] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:49:08,979 [P8216/D4/T29] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:49:08,980 [P8216/D4/T29] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:49:08,980 [P8216/D4/T29] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-10 15:49:08,987 [P8216/D4/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-10 15:49:08,988 [P8216/D4/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-01-10 15:49:08,991 [P8216/D4/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-10 15:49:08,992 [P8216/D4/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-01-10 15:49:40,246 [P8216/D4/T169] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-10 15:49:40,247 [P8216/D4/T169] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2017-01-10 15:49:40,293 [P8216/D4/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-09 15:49:40
+ 2017-01-10 15:52:07,422 [P8216/D4/T242] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-01-10 15:52:07,423 [P8216/D4/T242] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2017-01-10 16:07:45,141 [P8216/D4/T36] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-10 19:49:40,214 [P8216/D4/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-09 19:49:40
+ 2017-01-10 23:49:40,037 [P8216/D4/T71] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-09 23:49:40

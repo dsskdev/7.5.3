@@ -1,0 +1,33 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "master.cshtml";
+}
+<div class="row">
+ <div class="col-md-3">
+	@{Html.RenderPartial("Siblings");}
+ </div>
+ <div class="col-md-9">
+	@{
+		if(Model.Content.HasValue("image"))
+		{
+			var imagePath = Model.Content.GetPropertyValue<string>("image");
+			 <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+			<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
+			</div>
+				</div>
+		}
+	}
+	<div class="mdl-grid">
+    	<div class="mdl-cell mdl-cell--12-col">
+			<h1>@Umbraco.Field("heading")</h1>
+			<h2>@Umbraco.Field("location")</h2>
+			@Umbraco.Field("mainContent")
+			<p>Start Date : @Convert.ToDateTime(@Umbraco.Field("start").ToString()).ToString("yyyy:dd:mm")</p>
+			<p>Start Time : @Convert.ToDateTime(@Umbraco.Field("start").ToString()).ToString("hh:mm")</p>
+			<p>End Date : @Convert.ToDateTime(@Umbraco.Field("endDate").ToString()).ToString("yyyy:dd:mm")</p>
+			<p>end Time : @Convert.ToDateTime(@Umbraco.Field("endDate").ToString()).ToString("hh:mm")</p>
+ 		</div>
+	</div>
+	</div>
+</div>

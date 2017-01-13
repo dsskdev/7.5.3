@@ -2,32 +2,41 @@
 @{
 	Layout = "master.cshtml";
 }
-<div class="row">
- <div class="col-md-3">
+<div class="">
+	 <div class="">
+	@{Html.RenderPartial("Breadcrumb");}
+	</hr>
+ </div>
+ <div class="">
 	@{Html.RenderPartial("Siblings");}
  </div>
- <div class="col-md-9">
+ <div class="mdl-grid">
+	 <div class="mdl-layout-spacer"></div>
+ 	<div class="mdl-cell mdl-cell--6-col mdl-shadow--2dp">
 	@{
 		if(Model.Content.HasValue("image"))
 		{
 			var imagePath = Model.Content.GetPropertyValue<string>("image");
-			 <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--12-col">
 			<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
-			</div>
-				</div>
 		}
 	}
-	<div class="mdl-grid">
-    	<div class="mdl-cell mdl-cell--12-col">
-			<h1>@Umbraco.Field("heading")</h1>
-			<h2>@Umbraco.Field("location")</h2>
-			@Umbraco.Field("mainContent")
-			<p>Start Date : @Convert.ToDateTime(@Umbraco.Field("start").ToString()).ToString("yyyy:dd:mm")</p>
-			<p>Start Time : @Convert.ToDateTime(@Umbraco.Field("start").ToString()).ToString("hh:mm")</p>
-			<p>End Date : @Convert.ToDateTime(@Umbraco.Field("endDate").ToString()).ToString("yyyy:dd:mm")</p>
-			<p>end Time : @Convert.ToDateTime(@Umbraco.Field("endDate").ToString()).ToString("hh:mm")</p>
- 		</div>
+	 <div class="mdl-card__title mdl-card--expand">
+			<h1 class="mdl-card__title-text">@Umbraco.Field("heading")</h1>
 	</div>
+	 <div class="mdl-card__title mdl-card--expand">
+			<h2 class="mdl-card__title-text">@Umbraco.Field("location")</h2>
 	</div>
+			<div class="mdl-card__supporting-text">
+				<p>Start Date : @Umbraco.Field("start", formatAsDate:true)</p>
+				<p>Start Time : @Convert.ToDateTime(@Umbraco.Field("start").ToString()).ToString("hh:mm")</p>
+				<p>End Date : @Umbraco.Field("endDate", formatAsDate:true)</p>
+				<p>end Time : @Convert.ToDateTime(@Umbraco.Field("endDate").ToString()).ToString("hh:mm")</p>
+ 				@Umbraco.Field("endDate", formatAsDateWithTime: true, formatAsDateWithTimeSeparator: "End Time")
+		 		@Umbraco.Field("mainContent")
+		 	</div>
+	</div>
+
+				<div class="mdl-layout-spacer"></div>
+					
+ </div>
 </div>

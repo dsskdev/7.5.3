@@ -1,0 +1,50 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Newtonsoft.Json.Linq
+@{
+	Layout = "master.cshtml";
+}
+<div class="row">
+ <div class="col-md-3">
+	@*{Html.RenderPartial("ChildPages");}*@
+ </div>
+ <div class="col-md-9">
+	<h1>@Umbraco.Field("heading")</h1>
+	@{
+		if(Model.Content.HasValue("image"))
+		{
+			var imagePath = Model.Content.GetPropertyValue<string>("image");
+			<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
+		}
+	}
+	@Umbraco.Field("mainContent")
+	@{      
+		if (Model.Content.HasValue("Links") && Model.Content.GetPropertyValue<string>("Links").Length > 2)
+		{
+			<ul>
+				@foreach (var item in Model.Content.GetPropertyValue<JArray>("Links"))
+				{
+					var linkUrl = (item.Value<bool>("isInternal")) ? Umbraco.NiceUrl(item.Value<int>("internal")) : item.Value<string>("link");
+					var linkTarget = item.Value<bool>("newWindow") ? "_blank" : null;
+					<li><a href="@linkUrl" target="@linkTarget">@(item.Value<string>("caption"))</a></li>
+				}
+			</ul>
+		}
+	} 
+
+	
+	@{ var selection = Model.Content.Children.Where("Visible"); }
+	@if (selection.Any())
+	{
+		foreach (var item in selection)
+		{
+			if(item.HasValue("image"))
+			{
+				var imagePath = item.GetPropertyValue<string>("image");
+				<img class="img-responsive" src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName"/>
+			}
+			<a href="@item.Url">@item.Name</a>   
+		}  
+	}
+
+ </div>
+</div>

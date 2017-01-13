@@ -1,8 +1,8 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{ 
-	var selection = Model.Content.Children.First();
+	var selection = Model.Content.Children.Last();
 }
-<div class="ID@{@selection.Id;}">
+<div class="mdl-card test ID@{@selection.Id;}">
 	@if(selection.HasValue("image"))
 	{
 		var imagePath = selection.GetPropertyValue<string>("image");

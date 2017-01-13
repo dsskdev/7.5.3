@@ -3,6 +3,11 @@
 @{
 	Layout = "master.cshtml";
 }
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+		@{Html.RenderPartial("Breadcrumb");}
+    </div>
+</div>
 
 @{
     if(Model.Content.HasValue("image"))

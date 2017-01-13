@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <NuGetPackageImportStamp>4336d1d0</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -292,6 +293,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\testRun.dll" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\mdl-v1.1.2\material.css" />
     <Content Include="Content\mdl-v1.1.2\material.js" />
@@ -300,8 +302,78 @@
     <Content Include="Css\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\rte.css" />
     <Content Include="Css\style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Media\1001\bg_rs.jpg" />
+    <Content Include="Media\1001\bg_rs_thumb.jpg" />
+    <Content Include="Media\1002\jd_rs.jpg" />
+    <Content Include="Media\1002\jd_rs_thumb.jpg" />
+    <Content Include="Media\1005\outside1_rs.jpg" />
+    <Content Include="Media\1007\scc_7_rs.jpg" />
+    <Content Include="Media\1008\office3_rs.jpg" />
+    <Content Include="Media\1009\office5_rs.jpg" />
+    <Content Include="Media\1010\mz_rs.jpg" />
+    <Content Include="Media\1010\mz_rs_thumb.jpg" />
+    <Content Include="Media\1011\sj_rs.jpg" />
+    <Content Include="Media\1011\sj_rs_thumb.jpg" />
+    <Content Include="Media\1012\_scc_3_rs.jpg" />
+    <Content Include="Media\1012\_scc_3_rs_thumb.jpg" />
+    <Content Include="Media\1014\news_rs.jpg" />
+    <Content Include="Media\1014\news_rs_thumb.jpg" />
+    <Content Include="Media\1015\calendar_rs.jpg" />
+    <Content Include="Media\1015\calendar_rs_thumb.jpg" />
+    <Content Include="Media\1016\board_rs.jpg" />
+    <Content Include="Media\1016\board_rs_thumb.jpg" />
+    <Content Include="Media\1017\cs_rs.jpg" />
+    <Content Include="Media\1017\cs_rs_thumb.jpg" />
+    <Content Include="Media\1018\partners_rs.jpg" />
+    <Content Include="Media\1018\partners_rs_thumb.jpg" />
+    <Content Include="Media\1020\anne_rs.jpg" />
+    <Content Include="Media\1020\anne_rs_thumb.jpg" />
+    <Content Include="Media\1021\officegreen_rs.jpg" />
+    <Content Include="Media\1021\officegreen_rs_thumb.jpg" />
+    <Content Include="Media\1022\news1_rs.jpg" />
+    <Content Include="Media\1022\news1_rs_thumb.jpg" />
+    <Content Include="Media\1023\news2_rs.png" />
+    <Content Include="Media\1023\news2_rs_thumb.jpg" />
+    <Content Include="Media\1023\news2_rs_thumb.png" />
+    <Content Include="Media\1024\news3_rs.jpg" />
+    <Content Include="Media\1024\news3_rs_thumb.jpg" />
+    <Content Include="Media\1025\news4_rs.jpg" />
+    <Content Include="Media\1025\news4_rs_thumb.jpg" />
+    <Content Include="Media\1026\staff_rs.jpg" />
+    <Content Include="Media\1026\staff_rs_thumb.jpg" />
+    <Content Include="Media\1027\staff2_rs.jpg" />
+    <Content Include="Media\1027\staff2_rs_thumb.jpg" />
+    <Content Include="Media\1028\staff3_rs.jpg" />
+    <Content Include="Media\1028\staff3_rs_thumb.jpg" />
+    <Content Include="Media\1029\staff4_rs.jpg" />
+    <Content Include="Media\1029\staff4_rs_thumb.jpg" />
+    <Content Include="Media\1030\staff5_rs.jpg" />
+    <Content Include="Media\1030\staff5_rs_thumb.jpg" />
+    <Content Include="Media\1031\staff6_rs.jpg" />
+    <Content Include="Media\1031\staff6_rs_thumb.jpg" />
+    <Content Include="Media\1032\offcie101.png" />
+    <Content Include="Media\1032\offcie101_big-thumb.jpg" />
+    <Content Include="Media\1032\offcie101_big-thumb.png" />
+    <Content Include="Media\1032\offcie101_thumb.jpg" />
+    <Content Include="Media\1032\offcie101_thumb.png" />
+    <Content Include="Media\1033\office102.jpeg" />
+    <Content Include="Media\1033\office102_big-thumb.jpeg" />
+    <Content Include="Media\1033\office102_big-thumb.jpg" />
+    <Content Include="Media\1033\office102_thumb.jpeg" />
+    <Content Include="Media\1033\office102_thumb.jpg" />
+    <Content Include="Media\1034\office123.jpeg" />
+    <Content Include="Media\1034\office123_big-thumb.jpeg" />
+    <Content Include="Media\1034\office123_big-thumb.jpg" />
+    <Content Include="Media\1034\office123_thumb.jpeg" />
+    <Content Include="Media\1034\office123_thumb.jpg" />
+    <Content Include="Media\1035\canteen_big-thumb.jpg" />
+    <Content Include="Media\1035\canteen_big-thumb.png" />
+    <Content Include="Media\1035\canteen_thumb.jpg" />
+    <Content Include="Media\1035\canteen_thumb.png" />
+    <Content Include="Media\1036\canteen.png" />
     <Content Include="packages.config" />
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -317,6 +389,8 @@
     <Content Include="Content\mdl-v1.1.2\material.min.css.map" />
     <Content Include="Content\mdl-v1.1.2\LICENSE" />
     <Content Include="Content\mdl-v1.1.2\bower.json" />
+    <Content Include="Media\1019\bsi.pdf" />
+    <None Include="Properties\PublishProfiles\Umbraco7.5.3.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -337,7 +411,9 @@
     <Content Include="Config\UrlRewriting.config" />
     <Content Include="Config\umbracoSettings.config" />
     <Content Include="Config\trees.config" />
-    <Content Include="Config\tinyMceConfig.config" />
+    <Content Include="Config\tinyMceConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Config\scripting.config" />
     <Content Include="Config\metablogConfig.config" />
     <Content Include="Config\log4net.config" />
@@ -358,6 +434,24 @@
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Views\Partials\Drawer.cshtml" />
+    <Content Include="Views\Partials\Breadcrumb.cshtml" />
+    <Content Include="Views\Partials\cardsExample.cshtml" />
+    <Content Include="Views\Partials\ChildPages.cshtml" />
+    <Content Include="Views\boardMembers.cshtml" />
+    <Content Include="Views\branch.cshtml" />
+    <Content Include="Views\branchDesign.cshtml" />
+    <Content Include="Views\branchNews.cshtml" />
+    <Content Include="Views\event.cshtml" />
+    <Content Include="Views\Partials\eventsReturnType.cshtml" />
+    <Content Include="Views\Partials\homeWidget.cshtml" />
+    <Content Include="Views\Partials\MainNavigation.cshtml" />
+    <Content Include="Views\Partials\megaFooter.cshtml" />
+    <Content Include="Views\Partials\miniFooter.cshtml" />
+    <Content Include="Views\Partials\returnType.cshtml" />
+    <Content Include="Views\Partials\Siblings.cshtml" />
+    <Content Include="Views\Partials\sub Menu.cshtml" />
+    <Content Include="Views\newsArticle.cshtml" />
+    <Content Include="Views\page.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -380,105 +474,61 @@
     <Content Include="bin\amd64\sqlcese40.dll" />
     <Content Include="bin\AutoMapper.dll" />
     <Content Include="bin\AutoMapper.Net4.dll" />
-    <Content Include="bin\AutoMapper.xml" />
     <Content Include="bin\businesslogic.dll" />
-    <Content Include="bin\businesslogic.xml" />
     <Content Include="bin\ClientDependency.Core.dll" />
     <Content Include="bin\ClientDependency.Core.Mvc.dll" />
-    <Content Include="bin\ClientDependency.Core.Mvc.pdb" />
-    <Content Include="bin\ClientDependency.Core.pdb" />
     <Content Include="bin\cms.dll" />
-    <Content Include="bin\cms.xml" />
     <Content Include="bin\controls.dll" />
-    <Content Include="bin\controls.xml" />
     <Content Include="bin\CookComputing.XmlRpcV2.dll" />
     <Content Include="bin\Examine.dll" />
-    <Content Include="bin\Examine.pdb" />
     <Content Include="bin\HtmlAgilityPack.dll" />
-    <Content Include="bin\HtmlAgilityPack.pdb" />
-    <Content Include="bin\HtmlAgilityPack.xml" />
     <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
     <Content Include="bin\ImageProcessor.dll" />
     <Content Include="bin\ImageProcessor.Web.dll" />
     <Content Include="bin\interfaces.dll" />
-    <Content Include="bin\interfaces.xml" />
     <Content Include="bin\log4net.dll" />
     <Content Include="bin\Lucene.Net.dll" />
-    <Content Include="bin\Lucene.Net.xml" />
     <Content Include="bin\MarkdownSharp.dll" />
     <Content Include="bin\Microsoft.ApplicationBlocks.Data.dll" />
     <Content Include="bin\Microsoft.AspNet.Identity.Core.dll" />
-    <Content Include="bin\Microsoft.AspNet.Identity.Core.xml" />
     <Content Include="bin\Microsoft.AspNet.Identity.Owin.dll" />
-    <Content Include="bin\Microsoft.AspNet.Identity.Owin.xml" />
     <Content Include="bin\Microsoft.CodeAnalysis.CSharp.dll" />
-    <Content Include="bin\Microsoft.CodeAnalysis.CSharp.xml" />
     <Content Include="bin\Microsoft.CodeAnalysis.dll" />
-    <Content Include="bin\Microsoft.CodeAnalysis.xml" />
     <Content Include="bin\Microsoft.Owin.dll" />
     <Content Include="bin\Microsoft.Owin.Host.SystemWeb.dll" />
-    <Content Include="bin\Microsoft.Owin.Host.SystemWeb.xml" />
     <Content Include="bin\Microsoft.Owin.Security.Cookies.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.Cookies.xml" />
     <Content Include="bin\Microsoft.Owin.Security.dll" />
     <Content Include="bin\Microsoft.Owin.Security.OAuth.dll" />
-    <Content Include="bin\Microsoft.Owin.Security.OAuth.xml" />
-    <Content Include="bin\Microsoft.Owin.Security.xml" />
-    <Content Include="bin\Microsoft.Owin.xml" />
     <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
     <Content Include="bin\MiniProfiler.dll" />
-    <Content Include="bin\MiniProfiler.pdb" />
-    <Content Include="bin\MiniProfiler.xml" />
     <Content Include="bin\MySql.Data.dll" />
     <Content Include="bin\Newtonsoft.Json.dll" />
-    <Content Include="bin\Newtonsoft.Json.xml" />
     <Content Include="bin\Owin.dll" />
     <Content Include="bin\Semver.dll" />
     <Content Include="bin\SQLCE4Umbraco.dll" />
-    <Content Include="bin\SQLCE4Umbraco.xml" />
     <Content Include="bin\System.Collections.Immutable.dll" />
-    <Content Include="bin\System.Collections.Immutable.xml" />
     <Content Include="bin\System.Data.SqlServerCe.dll" />
     <Content Include="bin\System.Data.SqlServerCe.Entity.dll" />
     <Content Include="bin\System.Net.Http.Formatting.dll" />
-    <Content Include="bin\System.Net.Http.Formatting.xml" />
     <Content Include="bin\System.Reflection.Metadata.dll" />
-    <Content Include="bin\System.Reflection.Metadata.xml" />
     <Content Include="bin\System.Web.Helpers.dll" />
-    <Content Include="bin\System.Web.Helpers.xml" />
     <Content Include="bin\System.Web.Http.dll" />
     <Content Include="bin\System.Web.Http.WebHost.dll" />
-    <Content Include="bin\System.Web.Http.WebHost.xml" />
-    <Content Include="bin\System.Web.Http.xml" />
     <Content Include="bin\System.Web.Mvc.dll" />
-    <Content Include="bin\System.Web.Mvc.xml" />
     <Content Include="bin\System.Web.Razor.dll" />
-    <Content Include="bin\System.Web.Razor.xml" />
     <Content Include="bin\System.Web.WebPages.Deployment.dll" />
-    <Content Include="bin\System.Web.WebPages.Deployment.xml" />
     <Content Include="bin\System.Web.WebPages.dll" />
     <Content Include="bin\System.Web.WebPages.Razor.dll" />
-    <Content Include="bin\System.Web.WebPages.Razor.xml" />
-    <Content Include="bin\System.Web.WebPages.xml" />
     <Content Include="bin\TidyNet.dll" />
     <Content Include="bin\Umbraco.Core.dll" />
-    <Content Include="bin\Umbraco.Core.xml" />
     <Content Include="bin\umbraco.DataLayer.dll" />
-    <Content Include="bin\umbraco.DataLayer.xml" />
     <Content Include="bin\umbraco.dll" />
     <Content Include="bin\umbraco.editorControls.dll" />
-    <Content Include="bin\umbraco.editorControls.xml" />
     <Content Include="bin\umbraco.MacroEngines.dll" />
-    <Content Include="bin\umbraco.MacroEngines.xml" />
     <Content Include="bin\Umbraco.ModelsBuilder.dll" />
-    <Content Include="bin\Umbraco.ModelsBuilder.pdb" />
     <Content Include="bin\umbraco.providers.dll" />
-    <Content Include="bin\umbraco.providers.xml" />
     <Content Include="bin\Umbraco.Web.UI.dll" />
-    <Content Include="bin\Umbraco.Web.UI.xml" />
-    <Content Include="bin\umbraco.xml" />
     <Content Include="bin\UmbracoExamine.dll" />
-    <Content Include="bin\UmbracoExamine.xml" />
     <Content Include="bin\UrlRewritingNet.UrlRewriter.dll" />
     <Content Include="bin\vsUmbraco7.53.dll" />
     <Content Include="bin\vsUmbraco7.53.pdb" />
@@ -3096,6 +3146,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Media\1004\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
