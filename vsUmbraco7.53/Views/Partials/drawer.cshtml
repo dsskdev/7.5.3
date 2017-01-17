@@ -4,6 +4,8 @@
     var selection = CurrentPage.Site().Children.Where("Visible");
     var rootNodes = Umbraco.TypedContentAtRoot();
     var homeNode = rootNodes.First(h => h.DocumentTypeAlias == "home");
+	var img = Umbraco.TypedMedia(1213);
+		var imgFile = img.Url;
 }
 @*
 <div class="mdl-layout__drawer">
@@ -15,7 +17,8 @@
 *@
 
 <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">@Umbraco.Field("siteName", recursive: true)</span>
+    @*<span class="mdl-layout-title">@Umbraco.Field("siteName", recursive: true)</span>*@
+		<span class="mdl-layout-title"><img src="@imgFile" style="width:100px"/></span>
     <nav class="mdl-navigation">
         @if (homeNode.Name == Model.Content.Name)
         {

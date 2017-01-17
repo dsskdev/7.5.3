@@ -19,15 +19,22 @@ img {
   height: auto;
   display: block;
 }
-.mdl-navigation .mdl-navigation__link {
+.mdl-navigation .mdl-navigation__link{
 	border-bottom: 3px solid transparent;
 }
 .current.mdl-navigation__link {
-	border-bottom-color: #18ff1f;
+	border-bottom-color: #fff;
 }
 .mdl-layout__header, .mdl-mini-footer, .mdl-mega-footer{
 	background-color: #2C3B42;
 }
 .test:hover{
 	background-color: rgba(0,0,0,.1)
+}
+.breadcrumb{
+	background-color:#445761;
+}
+.breadcrumb li{
+	font-size:3em;
+	list-style-type: none;
 }

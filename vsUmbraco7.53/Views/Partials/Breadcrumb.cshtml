@@ -9,12 +9,12 @@
 *@
 
 @{ var selection = CurrentPage.Ancestors(); }
-
 @if (selection.Any())
 {
-	<ul class="breadcrumb">
+	<ul>
         @* For each page in the ancestors collection which have been ordered by Level (so we start with the highest top node first) *@
-        @foreach (var item in selection.OrderBy("Level"))
+        @*
+		@foreach (var item in selection.OrderBy("Level"))
         {
             <li><a href="@item.Url">@item.Name</a> </li>
         }

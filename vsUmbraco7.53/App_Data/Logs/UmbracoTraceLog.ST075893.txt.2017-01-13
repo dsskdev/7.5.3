@@ -1,0 +1,908 @@
+﻿ 2017-01-13 09:35:13,152 [P9948/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on ST075893
+ 2017-01-13 09:35:13,183 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-13 09:35:13,190 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2017-01-13 09:35:13,433 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-13 09:35:13,650 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 216ms)
+ 2017-01-13 09:35:13,792 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-13 09:35:13,793 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-01-13 09:35:13,793 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-13 09:35:13,795 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-01-13 09:35:13,809 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-13 09:35:13,810 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-01-13 09:35:13,810 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-13 09:35:13,816 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2017-01-13 09:35:13,939 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-13 09:35:13,940 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-01-13 09:35:13,940 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-13 09:35:13,941 [P9948/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-01-13 09:35:15,204 [P9948/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 09:35:15,554 [P9948/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 09:35:15,684 [P9948/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 09:35:15,811 [P9948/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-13 09:35:16,088 [P9948/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-13 09:35:16,088 [P9948/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-13 09:35:16,106 [P9948/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3017ms)
+ 2017-01-13 09:35:18,603 [P9948/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63413/umbraco (UmbracoModule request)
+ 2017-01-13 09:35:18,942 [P9948/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2017-01-13 09:35:19,031 [P9948/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-13 09:35:19,914 [P9948/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-13 09:35:19,916 [P9948/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-01-13 09:35:22,725 [P9948/D2/T11] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 09:35:49,623 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-13 09:35:49,624 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2017-01-13 09:35:49,912 [P9948/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-13 09:35:49,913 [P9948/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-13 09:35:50,256 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-13 09:35:50,257 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-01-13 09:35:50,316 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-01-13 09:35:50,317 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2017-01-13 09:35:50,385 [P9948/D2/T17] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 09:35:50,385 [P9948/D2/T17] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 09:35:50,385 [P9948/D2/T17] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 09:35:50,386 [P9948/D2/T17] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 09:35:50,386 [P9948/D2/T17] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 09:35:50,390 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-13 09:35:50,390 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-01-13 09:35:50,392 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-13 09:35:50,394 [P9948/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-01-13 09:35:50,402 [P9948/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-13 09:35:50,404 [P9948/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-01-13 09:36:19,240 [P9948/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-12 09:36:19
+ 2017-01-13 09:36:20,983 [P9948/D2/T11] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 09:36:33,022 [P9948/D2/T11] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 09:37:02,121 [P9948/D2/T11] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 09:37:09,921 [P9948/D2/T12] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 09:38:51,545 [P9948/D2/T25] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 09:38:55,919 [P9948/D2/T24] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 09:38:57,943 [P9948/D2/T19] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 09:41:20,213 [P9948/D2/T9] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:04:21,597 [P9948/D2/T63] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:04:21,597 [P9948/D2/T63] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:04:21,597 [P9948/D2/T63] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:04:21,597 [P9948/D2/T63] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:04:21,598 [P9948/D2/T63] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:04:32,099 [P9948/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-13 10:04:32,099 [P9948/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-01-13 10:10:21,475 [P9948/D2/T85] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote server returned an error: (407) Proxy Authentication Required.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2017-01-13 10:10:21,477 [P9948/D2/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2017-01-13 10:10:21,509 [P9948/D2/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 31ms)
+ 2017-01-13 10:12:03,929 [P9948/D2/T69] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-01-13 10:12:03,931 [P9948/D2/T69] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-01-13 10:12:05,965 [P9948/D2/T61] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:13:24,043 [P9948/D2/T55] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:14:25,244 [P9948/D2/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:14:25,245 [P9948/D2/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:14:25,245 [P9948/D2/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:14:25,245 [P9948/D2/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:14:25,245 [P9948/D2/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:14:26,705 [P9948/D2/T51] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:15:48,705 [P9948/D2/T69] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:17:04,861 [P9948/D2/T50] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:18:27,509 [P9948/D2/T51] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:27:24,228 [P9948/D2/T97] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:27:24,228 [P9948/D2/T97] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:27:24,229 [P9948/D2/T97] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:27:24,229 [P9948/D2/T97] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:27:24,229 [P9948/D2/T97] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:27:26,584 [P9948/D2/T97] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:28:30,045 [P9948/D2/T96] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:28:34,343 [P9948/D2/T102] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:29:22,859 [P9948/D2/T17] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:46:56,358 [P9948/D2/T178] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-13 10:47:02,522 [P9948/D2/T145] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-13 10:47:02,522 [P9948/D2/T145] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-13 10:47:23,276 [P9948/D2/T179] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:47:23,276 [P9948/D2/T179] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:47:23,276 [P9948/D2/T179] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:47:23,276 [P9948/D2/T179] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:47:23,277 [P9948/D2/T179] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:47:24,567 [P9948/D2/T179] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:48:30,031 [P9948/D2/T184] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-13 10:49:14,450 [P9948/D2/T185] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-13 10:49:14,451 [P9948/D2/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-13 10:49:14,451 [P9948/D2/T142] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-13 10:49:14,451 [P9948/D2/T173] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-13 10:49:14,451 [P9948/D2/T173] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-13 10:49:14,451 [P9948/D2/T133] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-13 10:49:18,086 [P9948/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on ST075893
+ 2017-01-13 10:49:18,099 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-13 10:49:18,105 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2017-01-13 10:49:18,178 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-13 10:49:18,427 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 249ms)
+ 2017-01-13 10:49:18,535 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-13 10:49:18,537 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-01-13 10:49:18,538 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-13 10:49:18,539 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-01-13 10:49:18,550 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-13 10:49:18,551 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-01-13 10:49:18,552 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-13 10:49:18,557 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-01-13 10:49:18,687 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-13 10:49:18,688 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-01-13 10:49:18,688 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-13 10:49:18,689 [P9948/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-01-13 10:49:19,433 [P9948/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 10:49:19,602 [P9948/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 10:49:19,662 [P9948/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 10:49:19,690 [P9948/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-13 10:49:19,919 [P9948/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-13 10:49:19,920 [P9948/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-13 10:49:19,927 [P9948/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 1911ms)
+ 2017-01-13 10:49:22,220 [P9948/D3/T181] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63413/umbraco (UmbracoModule request)
+ 2017-01-13 10:49:22,489 [P9948/D3/T181] INFO  umbraco.content - Load Xml from file...
+ 2017-01-13 10:49:22,490 [P9948/D3/T181] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-13 10:49:22,815 [P9948/D3/T181] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-13 10:49:22,816 [P9948/D3/T181] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-01-13 10:49:24,017 [P9948/D3/T181] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:49:44,539 [P9948/D2/T185] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-13 10:50:22,595 [P9948/D3/T162] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-12 10:50:22
+ 2017-01-13 10:50:22,626 [P9948/D3/T182] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-01-13 10:50:22,626 [P9948/D3/T182] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2017-01-13 10:50:22,626 [P9948/D3/T183] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-13 10:50:22,626 [P9948/D3/T183] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2017-01-13 10:51:17,185 [P9948/D3/T161] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:51:17,185 [P9948/D3/T161] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:51:17,185 [P9948/D3/T161] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:51:17,185 [P9948/D3/T161] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:51:17,185 [P9948/D3/T161] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 10:51:17,189 [P9948/D3/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-13 10:51:17,190 [P9948/D3/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-01-13 10:51:17,192 [P9948/D3/T161] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-13 10:51:17,193 [P9948/D3/T161] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-01-13 10:51:18,534 [P9948/D3/T161] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:51:21,573 [P9948/D3/T161] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 10:57:34,361 [P9948/D3/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-01-13 10:57:34,362 [P9948/D3/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-01-13 10:58:02,768 [P9948/D3/T160] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 11:17:07,327 [P9948/D3/T85] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-13 11:49:11,943 [P9948/D3/T13] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 11:50:27,162 [P9948/D3/T83] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-13 11:50:27,178 [P9948/D3/T83] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-13 11:50:27,234 [P9948/D3/T83] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-13 11:50:27,234 [P9948/D3/T83] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-01-13 11:50:27,317 [P9948/D3/T83] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 11:50:27,317 [P9948/D3/T83] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 11:50:27,317 [P9948/D3/T83] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 11:50:27,318 [P9948/D3/T83] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 11:50:27,319 [P9948/D3/T83] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 11:50:27,335 [P9948/D3/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-13 11:50:27,337 [P9948/D3/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-01-13 11:50:38,987 [P9948/D3/T8] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 11:51:42,306 [P9948/D3/T40] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 11:59:02,930 [P9948/D3/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2017-01-13 11:59:02,933 [P9948/D3/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 2ms)
+ 2017-01-13 11:59:02,967 [P9948/D3/T23] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote server returned an error: (407) Proxy Authentication Required.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2017-01-13 12:01:53,121 [P9948/D3/T12] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 12:01:53,121 [P9948/D3/T12] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 12:01:53,122 [P9948/D3/T12] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 12:01:53,122 [P9948/D3/T12] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 12:01:53,122 [P9948/D3/T12] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 12:20:09,757 [P9948/D3/T100] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-13 13:11:32,917 [P9948/D3/T40] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-13 13:11:32,917 [P9948/D3/T40] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-13 13:12:09,424 [P9948/D3/T82] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:12:09,424 [P9948/D3/T82] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:12:09,424 [P9948/D3/T82] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:12:09,424 [P9948/D3/T82] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:12:09,425 [P9948/D3/T82] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:16:36,520 [P9948/D3/T58] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\Partials\drawer.cshtml(20): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'UmbracoFile' and no extension method 'UmbracoFile' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_master_cshtml.Execute() in c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\master.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-13 13:18:47,203 [P9948/D3/T44] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:18:48,048 [P9948/D3/T44] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\Partials\drawer.cshtml(20): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'UmbracoFile' and no extension method 'UmbracoFile' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_master_cshtml.Execute() in c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\master.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-13 13:19:23,293 [P9948/D3/T82] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:19:24,069 [P9948/D3/T82] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\Partials\drawer.cshtml(20): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'UmbracoFile' and no extension method 'UmbracoFile' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_master_cshtml.Execute() in c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\master.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-13 13:20:37,834 [P9948/D3/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:20:38,575 [P9948/D3/T65] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\5040647\AppData\Local\Temp\Temporary ASP.NET Files\vs\61d25404\8c1d2a5c\App_Web_drawer.cshtml.89207646.uqnqrdrw.0.cs(36): error CS0118: 'Umbraco.Core' is a 'namespace' but is used like a 'type'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_master_cshtml.Execute() in c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\master.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-13 13:20:58,664 [P9948/D3/T40] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:20:59,462 [P9948/D3/T40] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\Partials\drawer.cshtml(22): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'UmbracoFile' and no extension method 'UmbracoFile' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_master_cshtml.Execute() in c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\master.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-13 13:23:32,607 [P9948/D3/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:23:32,607 [P9948/D3/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:23:32,608 [P9948/D3/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:23:32,608 [P9948/D3/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:23:32,608 [P9948/D3/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:23:34,398 [P9948/D3/T77] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:23:35,187 [P9948/D3/T77] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\Partials\drawer.cshtml(8): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'UmbracoFile' and no extension method 'UmbracoFile' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_master_cshtml.Execute() in c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\master.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-13 13:24:55,740 [P9948/D3/T60] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:24:56,524 [P9948/D3/T60] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\Partials\drawer.cshtml(8): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'UmbracoFile' and no extension method 'UmbracoFile' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_master_cshtml.Execute() in c:\Dibs\vsUmbraco7.53\vsUmbraco7.53\Views\master.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-01-13 13:25:44,691 [P9948/D3/T52] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:29:18,736 [P9948/D3/T54] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:31:33,440 [P9948/D3/T61] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:39:44,671 [P9948/D3/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:39:44,671 [P9948/D3/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:39:44,671 [P9948/D3/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:39:44,671 [P9948/D3/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:39:44,672 [P9948/D3/T50] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:46:33,620 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-13 13:46:33,620 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-13 13:46:33,624 [P9948/D3/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-13 13:46:33,624 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-13 13:46:33,624 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-13 13:46:33,625 [P9948/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-13 13:46:33,683 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-13 13:46:33,683 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-13 13:46:33,683 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-13 13:46:33,683 [P9948/D3/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-13 13:46:33,683 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-13 13:46:33,683 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-13 13:46:33,683 [P9948/D3/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-13 13:46:33,683 [P9948/D3/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-13 13:46:33,722 [P9948/D3/T162] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-13 13:46:42,728 [P9948/D4/T98] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on ST075893
+ 2017-01-13 13:46:42,729 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-13 13:46:42,733 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Hash determined (took 4ms)
+ 2017-01-13 13:46:42,890 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-13 13:46:43,264 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 373ms)
+ 2017-01-13 13:46:43,475 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-13 13:46:43,476 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-01-13 13:46:43,477 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-13 13:46:43,478 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-01-13 13:46:43,482 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-13 13:46:43,483 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2017-01-13 13:46:43,483 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-13 13:46:43,488 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 4ms)
+ 2017-01-13 13:46:43,746 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-13 13:46:43,747 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-01-13 13:46:43,747 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-13 13:46:43,748 [P9948/D4/T98] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-01-13 13:46:44,866 [P9948/D4/T98] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 13:46:44,983 [P9948/D4/T98] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 13:46:45,066 [P9948/D4/T98] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 13:46:45,097 [P9948/D4/T98] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-13 13:46:45,446 [P9948/D4/T98] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-13 13:46:45,446 [P9948/D4/T98] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-13 13:46:45,450 [P9948/D4/T98] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2819ms)
+ 2017-01-13 13:46:48,363 [P9948/D4/T77] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63413/umbraco (UmbracoModule request)
+ 2017-01-13 13:46:49,231 [P9948/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-01-13 13:46:49,231 [P9948/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2017-01-13 13:47:03,806 [P9948/D3/T82] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-13 13:47:10,989 [P9948/D4/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:47:10,989 [P9948/D4/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:47:10,989 [P9948/D4/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:47:10,989 [P9948/D4/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:47:10,990 [P9948/D4/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:47:10,993 [P9948/D4/T65] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-13 13:47:10,994 [P9948/D4/T65] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-01-13 13:47:10,997 [P9948/D4/T65] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-13 13:47:10,998 [P9948/D4/T65] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-01-13 13:47:11,073 [P9948/D4/T65] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-13 13:47:11,074 [P9948/D4/T65] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-01-13 13:47:12,210 [P9948/D4/T184] INFO  umbraco.content - Load Xml from file...
+ 2017-01-13 13:47:12,301 [P9948/D4/T184] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-13 13:47:12,836 [P9948/D4/T184] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-13 13:47:12,837 [P9948/D4/T184] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2017-01-13 13:47:49,078 [P9948/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-13 13:47:49,079 [P9948/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-01-13 13:47:49,138 [P9948/D4/T45] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-12 13:47:48
+ 2017-01-13 13:49:07,490 [P9948/D4/T42] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2017-01-13 13:49:07,553 [P9948/D4/T42] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 62ms)
+ 2017-01-13 13:49:20,132 [P9948/D4/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2017-01-13 13:49:20,133 [P9948/D4/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 0ms)
+ 2017-01-13 13:49:20,159 [P9948/D4/T50] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote server returned an error: (407) Proxy Authentication Required.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2017-01-13 13:49:52,666 [P9948/D4/T61] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:57:58,108 [P9948/D4/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:57:58,108 [P9948/D4/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:57:58,108 [P9948/D4/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:57:58,109 [P9948/D4/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:57:58,109 [P9948/D4/T58] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 13:57:59,565 [P9948/D4/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 13:58:29,540 [P9948/D4/T52] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 14:12:50,541 [P9948/D4/T54] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 14:12:50,541 [P9948/D4/T54] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 14:12:50,541 [P9948/D4/T54] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 14:12:50,541 [P9948/D4/T54] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 14:12:50,542 [P9948/D4/T54] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 14:13:12,534 [P9948/D4/T42] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-01-13 14:13:12,536 [P9948/D4/T42] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-01-13 14:13:24,629 [P9948/D4/T29] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 14:14:01,068 [P9948/D4/T60] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 14:14:21,006 [P9948/D4/T77] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 14:32:26,207 [P9948/D4/T142] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-13 14:59:34,574 [P9948/D4/T64] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 14:59:36,997 [P9948/D4/T68] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:00:03,197 [P9948/D4/T64] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:00:09,056 [P9948/D4/T49] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-13 15:00:09,056 [P9948/D4/T49] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-13 15:01:16,954 [P9948/D4/T64] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:07:28,139 [P9948/D4/T70] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:07:28,139 [P9948/D4/T70] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:07:28,139 [P9948/D4/T70] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:07:28,139 [P9948/D4/T70] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:07:28,139 [P9948/D4/T70] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:07:30,356 [P9948/D4/T70] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:07:39,967 [P9948/D4/T70] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:07:57,070 [P9948/D4/T76] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:08:11,073 [P9948/D4/T76] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:08:21,328 [P9948/D4/T67] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:09:45,674 [P9948/D4/T49] ERROR dashboardUtilities.FeedProxy - Exception occurred
+System.Net.WebException: The remote server returned an error: (407) Proxy Authentication Required.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+ 2017-01-13 15:11:29,278 [P9948/D4/T48] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:12:06,896 [P9948/D4/T75] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:12:09,241 [P9948/D4/T103] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:12:48,110 [P9948/D4/T89] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:12:58,946 [P9948/D4/T75] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username 5040647 from IP address ::1
+ 2017-01-13 15:12:58,946 [P9948/D4/T75] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: 5040647 logged in from IP address ::1
+ 2017-01-13 15:12:59,031 [P9948/D4/T103] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-13 15:12:59,045 [P9948/D4/T103] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 18ms)
+ 2017-01-13 15:15:18,882 [P9948/D4/T53] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:15:37,925 [P9948/D4/T43] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:21:26,887 [P9948/D4/T90] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:21:26,887 [P9948/D4/T90] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:21:26,887 [P9948/D4/T90] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:21:26,888 [P9948/D4/T90] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:21:26,888 [P9948/D4/T90] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:23:08,975 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-01-13 15:23:08,975 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-01-13 15:23:08,977 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-01-13 15:23:08,977 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-01-13 15:23:08,977 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-01-13 15:23:08,977 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-01-13 15:23:08,978 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-01-13 15:23:08,978 [P9948/D4/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-01-13 15:23:08,978 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-01-13 15:23:08,978 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-01-13 15:23:08,978 [P9948/D4/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-01-13 15:23:08,979 [P9948/D4/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-01-13 15:23:09,028 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-01-13 15:23:09,028 [P9948/D4/T76] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-01-13 15:23:09,029 [P9948/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-01-13 15:23:16,882 [P9948/D5/T71] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on ST075893
+ 2017-01-13 15:23:16,937 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-01-13 15:23:16,943 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Hash determined (took 5ms)
+ 2017-01-13 15:23:17,157 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-01-13 15:23:17,497 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 339ms)
+ 2017-01-13 15:23:17,854 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-01-13 15:23:17,855 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-01-13 15:23:17,855 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-01-13 15:23:17,856 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-01-13 15:23:17,859 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-01-13 15:23:17,860 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2017-01-13 15:23:17,860 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-01-13 15:23:17,881 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 20ms)
+ 2017-01-13 15:23:18,192 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-01-13 15:23:18,193 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-01-13 15:23:18,193 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-01-13 15:23:18,194 [P9948/D5/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-01-13 15:23:19,676 [P9948/D5/T71] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 15:23:20,081 [P9948/D5/T71] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 15:23:20,223 [P9948/D5/T71] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-01-13 15:23:20,269 [P9948/D5/T71] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-01-13 15:23:20,593 [P9948/D5/T71] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-01-13 15:23:20,593 [P9948/D5/T71] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-01-13 15:23:20,646 [P9948/D5/T71] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3901ms)
+ 2017-01-13 15:23:25,253 [P9948/D5/T49] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:63413/umbraco (UmbracoModule request)
+ 2017-01-13 15:23:26,118 [P9948/D5/T49] INFO  umbraco.content - Load Xml from file...
+ 2017-01-13 15:23:26,262 [P9948/D5/T49] INFO  umbraco.content - Loaded Xml from file.
+ 2017-01-13 15:23:26,770 [P9948/D5/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-01-13 15:23:26,771 [P9948/D5/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-01-13 15:23:28,239 [P9948/D5/T49] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:23:39,098 [P9948/D4/T75] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2017-01-13 15:24:26,539 [P9948/D5/T45] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-12 15:24:26
+ 2017-01-13 15:24:26,541 [P9948/D5/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-01-13 15:24:26,542 [P9948/D5/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2017-01-13 15:24:39,932 [P9948/D5/T46] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:24:39,933 [P9948/D5/T46] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:24:39,934 [P9948/D5/T46] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:24:39,934 [P9948/D5/T46] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:24:39,934 [P9948/D5/T46] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:24:39,939 [P9948/D5/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-01-13 15:24:39,940 [P9948/D5/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-01-13 15:24:39,942 [P9948/D5/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-13 15:24:39,943 [P9948/D5/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-01-13 15:24:39,999 [P9948/D5/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-01-13 15:24:40,001 [P9948/D5/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-01-13 15:24:40,027 [P9948/D5/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-01-13 15:24:40,027 [P9948/D5/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2017-01-13 15:24:55,863 [P9948/D5/T75] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-01-13 15:24:55,864 [P9948/D5/T75] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 0ms)
+ 2017-01-13 15:24:58,017 [P9948/D5/T53] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:28:20,098 [P9948/D5/T46] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:40:24,778 [P9948/D5/T45] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:40:24,778 [P9948/D5/T45] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:40:24,778 [P9948/D5/T45] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:40:24,779 [P9948/D5/T45] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:40:24,779 [P9948/D5/T45] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:41:23,666 [P9948/D5/T63] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:43:56,594 [P9948/D5/T46] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:47:27,584 [P9948/D5/T103] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:50:58,846 [P9948/D5/T68] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:54:14,718 [P9948/D5/T68] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:54:28,779 [P9948/D5/T15] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:54:31,200 [P9948/D5/T15] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:54:33,058 [P9948/D5/T15] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:55:46,527 [P9948/D5/T15] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:40,077 [P9948/D5/T103] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:41,704 [P9948/D5/T103] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:42,361 [P9948/D5/T70] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:43,504 [P9948/D5/T102] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:44,057 [P9948/D5/T70] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:44,697 [P9948/D5/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:45,805 [P9948/D5/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:46,593 [P9948/D5/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:52,176 [P9948/D5/T70] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:53,009 [P9948/D5/T70] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:53,760 [P9948/D5/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:56:54,434 [P9948/D5/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:57:22,308 [P9948/D5/T30] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:57:23,312 [P9948/D5/T29] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:57:32,959 [P9948/D5/T67] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 15:59:57,511 [P9948/D5/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="BookingTree" application="UBooking" title="Booking" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.BookingTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:59:57,511 [P9948/D5/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="1" alias="ResourceTree" application="UBooking" title="Resources" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.ResourceTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:59:57,511 [P9948/D5/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="2" alias="emailTemplateTree" application="UBooking" title="Emails" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.EmailTemplateTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:59:57,511 [P9948/D5/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="3" alias="SettingsTree" application="UBooking" title="Settings" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.SettingsTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:59:57,511 [P9948/D5/T65] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="99" alias="AccountTree" application="UBooking" title="Account" iconClosed="icon-folder" iconOpen="icon-folder-open" type="uBooking.Core.Application.Trees.AccountTreeController, uBooking.Core" /> could not be resolved to a .Net object type
+ 2017-01-13 15:59:58,817 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:03,909 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:05,015 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:05,872 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:06,729 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:07,431 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:09,498 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:19,115 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:20,151 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:21,049 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:00:22,144 [P9948/D5/T65] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:02:13,175 [P9948/D5/T78] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:02:14,399 [P9948/D5/T67] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:02:15,071 [P9948/D5/T67] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type testRun.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-01-13 16:14:38,315 [P9948/D5/T93] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 5040647, IP Address: ::1
+ 2017-01-13 19:24:27,230 [P9948/D5/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-12 19:24:26
+ 2017-01-13 23:24:27,478 [P9948/D5/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-01-12 23:24:27

@@ -3,7 +3,8 @@
 @{
 	Layout = "master.cshtml";
 }
-<div class="mdl-grid">
+
+<div class="mdl-grid mdl-layout__header breadcrumb">
     <div class="mdl-cell mdl-cell--12-col">
 		@{Html.RenderPartial("Breadcrumb");}
     </div>
@@ -19,14 +20,13 @@
             </div>
         </div>
 	}
-}
+}	
 
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col">
         <h1>@Umbraco.Field("heading")</h1>
     </div>
 </div>
-	
 <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--12-col">
         @Umbraco.Field("mainContent")
