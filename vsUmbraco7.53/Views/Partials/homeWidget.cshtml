@@ -2,17 +2,19 @@
 @{ 
 	var selection = Model.Content.Children.Last();
 }
-<div class="mdl-card test ID@{@selection.Id;}">
+<div class="test ID@{@selection.Id;}">
 	@if(selection.HasValue("image"))
 	{
 		var imagePath = selection.GetPropertyValue<string>("image");
-		@*<img src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName" />*@
-			<style>.ID@{@selection.Id;} {background: url(@Umbraco.Media(imagePath).Url) center / cover}</style>
-	}
-	<div class="mdl-card__title">
-		<a class="mdl-card__title-text" href="@selection.Url">@selection.Name</a>
-	</div>
-	<div class="mdl-card__supporting-text">
-		<p>@(Umbraco.Truncate(selection.GetPropertyValue("mainContent").ToString(), 200, true))</p>
-	</div>
+		<img src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName" />
+		@*<style>.ID@{@selection.Id;} {background: url(@Umbraco.Media(imagePath).Url) center / cover}</style>*@
+    }
 </div>
+	<div class="feature">
+        <h1 class="">
+		    <a class="" href="@selection.Url">@selection.Name</a>
+	    </h1>
+    </div>
+	<div class="feature">
+		<p class="">@(Umbraco.Truncate(selection.GetPropertyValue("mainContent").ToString(), 200, true))</p>
+	</div>

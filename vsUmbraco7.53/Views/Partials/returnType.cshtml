@@ -4,13 +4,14 @@
  int docId = Model.Content.Id;
  var nodes = root.Descendants("newsArticle");
 }
-<div class="mdl-cell mdl-cell--12-col">
-	<h2>News / Updates</h2>
+<div class="feature mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell-12-col-phone">
+	<a href="/news/"><h2>News / Updates</h2></a>
 </div>	
+	
 @{
- foreach(var node in nodes.Take(2)){
+ foreach(var node in nodes.Take(4)){
   if(node.Id != docId){
-    <div class="test ID@{@node.Id;} mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+    <div class="test ID@{@node.Id;} mdl-cell mdl-cell--4-col-desktop mdl-cell--8-col-tablet mdl-cell--12-col-phone mdl-shadow--2dp">
 	 @if(node.HasValue("image")){   	
      <div>     
       <img src="@Umbraco.TypedMedia(node.GetPropertyValue("image")).Url" />

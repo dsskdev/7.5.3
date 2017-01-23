@@ -5,25 +5,25 @@
  int docId = Model.Content.Id;
  var nodes = root.Descendants("event");
 }
-<div class="mdl-cell mdl-cell--12-col">
-	<h2>Events</h2>
+<div class="feature mdl-cell mdl-cell--12-col">
+	<a href="/events/"><h2 class="mdl-typography-display-4">Events</h2></a>
 </div>	
 @{
  foreach(var node in nodes){
   if(node.Id != docId){
-    <div class="ID@{@node.Id;} mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+    <div class="test ID@{@node.Id;} mdl-cell mdl-cell--4-col mdl-shadow--2dp">
 	 @if(node.HasValue("image")){   	
      <div>     
       <img src="@Umbraco.TypedMedia(node.GetPropertyValue("image")).Url" />
      </div>
      <div class="mdl-card__supporting-text">	
-      <h3><a href="@node.Url">@node.Name</a></h3>
+      <h3 class="mdl-typography--display-1"><a href="@node.Url">@node.Name</a></h3>
 		  @node.GetPropertyValue("endDate")
       <p>@(Umbraco.Truncate(node.GetPropertyValue("mainContent").ToString(), 200, true))</p>
      </div>
 	 }else{
 	 <div class="mdl-card__supporting-text">	
-      <h3><a href="@node.Url">@node.Name</a></h3>
+      <h3 class="mdl-typography--display-1"><a href="@node.Url">@node.Name</a></h3>
 		 @node.GetPropertyValue("endDate")
       <p>@(Umbraco.Truncate(node.GetPropertyValue("mainContent").ToString(), 200, true))</p> 
      </div>	

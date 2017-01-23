@@ -12,7 +12,9 @@
 		<title>@Umbraco.Field("metaTitle") &#8211; @Umbraco.Field("siteName", recursive: true)</title>
 		<link href="~/Content/mdl-v1.1.2/material.min.css" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300">
 		<!-- <link href="~/Css/bootstrap.min.css" rel="stylesheet" /> -->
+        <link href="~/Css/core.css" rel="stylesheet" />
 		<link href="~/Css/style.css" rel="stylesheet" />
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,14 +25,15 @@
   	</head>
   	<body>			
 		<div class="mdl-layout mdl-js-layout">
-			<header class="mdl-layout__header mdl-layout__header--scroll">
+            @{Html.RenderPartial("drawer");}
+			<main class="mdl-layout__content">
+				<header class="mdl-layout__header">
 				@{Html.RenderPartial("mainNavigation");}
 			</header>
-							@{Html.RenderPartial("drawer");}
-			<main class="mdl-layout__content">
-				<div class="page-content">
+			<div class="page-content">
 					@RenderBody()
-				</div>
+			</div>
+				
             	<div class="mdl-layout-spacer"></div>
 				<footer class="mdl-mini-footer">
 					<div class="mdl-mini-footer--middle-section">
@@ -41,6 +44,7 @@
 						</ul>
 					</div>
 				</footer>
+				
 			</main>
 		</div>
 		<script src="~/Scripts/jquery-3.1.1.min.js"></script>
@@ -49,17 +53,3 @@
 		<!-- <script src="~/Scripts/bootstrap.min.js"></script> -->
 	</body>
 </html>
-
-@*
-<div class="mdl-layout mdl-js-layout">
-	@{Html.RenderPartial("drawer");}
-	<main class="mdl-layout__content">
-		<header class="mdl-layout__header">
-			@{Html.RenderPartial("mainNavigation");}
-		</header>
-		@RenderBody()
-		<div class="mdl-layout-spacer"></div>
-		@{Html.RenderPartial("megaFooter");}
-	</main>
-</div>
-*@

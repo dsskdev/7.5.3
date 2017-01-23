@@ -8,10 +8,11 @@
 		@if(item.HasValue("image"))
 		{
 			var imagePath = item.GetPropertyValue<string>("image");
-			@*<img src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName" />*@
-			<style>
+			<img src="@Umbraco.Media(imagePath).Url" alt="@Umbraco.Media(imagePath).UrlName" />
+			@*@<style>
 				.ID@{@item.Id;} {background: url(@Umbraco.Media(imagePath).Url) center / cover}
 			</style>
+            *@
 		}
 		<div class="mdl-card__title">
 			<a class="mdl-card__title-text" href="@item.Url">@item.Name</a>
